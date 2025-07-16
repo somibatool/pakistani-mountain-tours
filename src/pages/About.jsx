@@ -25,12 +25,23 @@ const About = () => {
             your trusted partner for discovering the hidden gems of this
             incredible country.
           </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
-            <img src="/public/IMG_1328.JPG" alt="Gallery 1" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1332.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1334.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded" />
-
-        </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
+            <img
+              src="/public/IMG_1328.JPG"
+              alt="Gallery 1"
+              className="w-full h-64 object-cover rounded"
+            />
+            <img
+              src="/public/IMG_1332.jpg"
+              alt="Gallery 2"
+              className="w-full h-64 object-cover rounded"
+            />
+            <img
+              src="/public/IMG_1334.jpg"
+              alt="Gallery 3"
+              className="w-full h-64 object-cover rounded"
+            />
+          </div>
           <br />
           <p>
             Our Highlights: Expert-guided tours to Northern Pakistan (Hunza,
@@ -43,31 +54,65 @@ const About = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
-            <img src="/public/IMG_1335.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1460.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1461.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded" />
-
+          <img
+            src="/public/IMG_1335.jpg"
+            alt="Gallery 1"
+            className="w-full h-64 object-cover rounded"
+          />
+          <img
+            src="/public/IMG_1460.jpg"
+            alt="Gallery 2"
+            className="w-full h-64 object-cover rounded"
+          />
+          <img
+            src="/public/IMG_1461.jpg"
+            alt="Gallery 3"
+            className="w-full h-64 object-cover rounded"
+          />
         </div>
-         <div className="mt-8">
-              <p>
-          At Pakistani Mountain Tours, we believe that every journey is more than just travel—it's an experience that creates memories for a lifetime. As a professional travel agency, we specialize in organizing tours across Pakistan's most iconic destinations, helping both local and international tourists explore the stunning landscapes, rich culture, and hidden gems of our beautiful country.
-
-With years of experience working with travelers from around the world, our team understands the importance of comfort, safety, and personalized service. From the towering peaks of the Karakoram and Himalayas to the serene valleys of Swat, Hunza, and Skardu, we ensure each tour is crafted to meet your expectations and provide a truly unforgettable experience.
-
-We offer a wide range of services including adventure tours, sightseeing, cultural explorations, family trips, and corporate group tours. Whether you're a solo traveler or a large group, Pakistani Mountain Tours is your reliable partner to discover the real beauty of Pakistan.
-
-Our passion lies in showcasing not just the landscapes, but the warm hospitality of our people, the vibrant traditions, and the rich heritage that makes Pakistan unique.
-        </p>
-         </div>
-             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10 mb-10">
-            <img src="/public/IMG_1328.JPG" alt="Gallery 1" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1465.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded" />
-    <img src="/public/IMG_1327.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded" />
-
+        <div className="mt-8">
+          <p>
+            At Pakistani Mountain Tours, we believe that every journey is more
+            than just travel—it's an experience that creates memories for a
+            lifetime. As a professional travel agency, we specialize in
+            organizing tours across Pakistan's most iconic destinations, helping
+            both local and international tourists explore the stunning
+            landscapes, rich culture, and hidden gems of our beautiful country.
+            With years of experience working with travelers from around the
+            world, our team understands the importance of comfort, safety, and
+            personalized service. From the towering peaks of the Karakoram and
+            Himalayas to the serene valleys of Swat, Hunza, and Skardu, we
+            ensure each tour is crafted to meet your expectations and provide a
+            truly unforgettable experience. We offer a wide range of services
+            including adventure tours, sightseeing, cultural explorations,
+            family trips, and corporate group tours. Whether you're a solo
+            traveler or a large group, Pakistani Mountain Tours is your reliable
+            partner to discover the real beauty of Pakistan. Our passion lies in
+            showcasing not just the landscapes, but the warm hospitality of our
+            people, the vibrant traditions, and the rich heritage that makes
+            Pakistan unique.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10 mb-10">
+          <img
+            src="/public/IMG_1328.JPG"
+            alt="Gallery 1"
+            className="w-full h-64 object-cover rounded"
+          />
+          <img
+            src="/public/IMG_1465.jpg"
+            alt="Gallery 2"
+            className="w-full h-64 object-cover rounded"
+          />
+          <img
+            src="/public/IMG_1327.jpg"
+            alt="Gallery 3"
+            className="w-full h-64 object-cover rounded"
+          />
         </div>
       </div>
-      {/* <Location /> */}
-      {/* <BlogsComp /> */}
+      <Location />
+      <BlogsComp />
     </>
   );
 };

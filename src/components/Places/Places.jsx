@@ -13,7 +13,7 @@ const PlacesData = [
     title: "Boat",
     location: "Attabad lack",
     description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
+    // price: 6700,
     type: "Cultural Relax",
   },
   {
@@ -22,7 +22,7 @@ const PlacesData = [
     location: "Hunza",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6700,
+    // price: 6700,
     type: "Cultural Relax",
   },
   {
@@ -31,7 +31,7 @@ const PlacesData = [
     location: "Astore",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6200,
+    // price: 6200,
     type: "Cultural Relax",
   },
   {
@@ -39,7 +39,7 @@ const PlacesData = [
     title: "Autumn",
     location: "Gilgit KKH",
     description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
+    // price: 6700,
     type: "Cultural Relax",
   },
   {
@@ -48,7 +48,7 @@ const PlacesData = [
     location: "Skardu",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6700,
+    // price: 6700,
     type: "Cultural Relax",
   },
   {
@@ -57,7 +57,7 @@ const PlacesData = [
     location: "Naltar",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    price: 6200,
+    // price: 6200,
     type: "Cultural Relax",
   },
 ];

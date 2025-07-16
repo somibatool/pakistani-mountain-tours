@@ -9,6 +9,7 @@ import About from "./pages/About";
 import BlogsDetails from "./pages/BlogsDetails";
 import Contact from "./pages/Contact";
 import PlaceDetail from "./components/Places/PlaceDetail"; // ✅ Import this
+import placeDetailHunza from "./components/Places/placeDetailHunza"
 import CustomerCounter from "./components/counter/customerCounter";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,19 +22,20 @@ const App = () => {
       easing: "ease-in-sine",
       delay: 100,
     });
-    AOS.refresh();
+    AOS.refresh()
   }, []);
 
   return (
     <>
-      <BrowserRouter>
+   <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="blogs/:id" element={<BlogsDetails />} />
             <Route path="best-places" element={<PlacesRoute />} />
-            <Route path="place/:title" element={<PlaceDetail />} /> {/* ✅ Added here */}
+            <Route path="place/:title" element={<PlaceDetail />} /> {/*Added here */}
+            <Route path="place/:title" element={<placeDetailHunza />} /> {/*Added here */}
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />

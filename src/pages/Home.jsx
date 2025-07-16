@@ -21,27 +21,26 @@ const Home = () => {
   return (
     <>
       <div>
-<div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden">
   {/* Video Background */}
   <video
     autoPlay
     loop
     muted
     playsInline
-    className="absolute inset-0 w-full h-full object-cover object-center z-[-1]"
+    className="absolute inset-0 w-full h-full object-cover object-center z-[-1] "
   >
     <source src={NatureVid} type="video/mp4" />
   </video>
 
-  {/* Softer Gradient Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/10 via-cyan-900/30 to-transparent z-0"></div>
+  {/* { Overlay */} 
+  <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/20 via-cyan-900/60 to-transparent z-0"></div>
 
   {/* Hero Section */}
   <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-4">
     <Hero />
   </div>
 </div>
-
 
 
         <Places handleOrderPopup={handleOrderPopup} />
