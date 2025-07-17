@@ -11,56 +11,47 @@ const PlacesData = [
   {
     img: Img1,
     title: "Boat",
-    location: "Attabad lack",
+    location: "Attabad Lake",
     description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    // price: 6700,
-    type: "Cultural Relax",
+    link: "/place-detail/boat"
   },
   {
     img: Img2,
     title: "Karimabad Hunza",
     location: "Hunza",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    // price: 6700,
-    type: "Cultural Relax",
+    description: "...",
+    link: "/place-detail/karimabad-hunza"
   },
   {
     img: Img3,
-    title: "Fairy Medows",
+    title: "Fairy Meadows",
     location: "Astore",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    // price: 6200,
-    type: "Cultural Relax",
+    description: "...",
+    link: "/place-detail/fairy-meadows"
   },
   {
     img: Img4,
     title: "Autumn",
     location: "Gilgit KKH",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    // price: 6700,
-    type: "Cultural Relax",
+    description: "...",
+    link: "/place-detail/autumn"
   },
   {
     img: Img5,
-    title: "Lack",
+    title: "Lake",
     location: "Skardu",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    // price: 6700,
-    type: "Cultural Relax",
+    description: "...",
+    link: "/place-detail/skardu-lake"
   },
   {
     img: Img6,
-    title: "Firy Medows",
+    title: "Fairy Meadows",
     location: "Naltar",
-    description:
-      "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
-    // price: 6200,
-    type: "Cultural Relax",
+    description: "...",
+    link: "/place-detail/fairy-meadows-naltar"
   },
 ];
+
 
 const Places = ({ handleOrderPopup }) => {
   return (

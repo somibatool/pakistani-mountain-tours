@@ -1,24 +1,22 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-const PlaceCard = ({ img, title, location, description }) => {
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    const routeTitle = title.toLowerCase().replace(/\s+/g, "-");
-    navigate(`/place/${routeTitle}`);
-  };
-
+const PlaceCard = ({ img, title, location, description, link }) => {
   return (
-    <div
-      onClick={handleClick}
-      className="cursor-pointer bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition duration-300"
-    >
-      <img src={img} alt={title} className="w-full h-48 object-cover" />
+    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col cursor-pointer">
+      <img src={img} alt={title} className="w-full h-48 object-cover rounded-t-xl" />
+
+      <div className="p-4 flex-grow">
+        <h2 className="text-xl font-bold mb-2">{title}</h2>
+        <p className="text-sm text-gray-600 mb-2">{location}</p>
+        <p className="text-gray-700 text-sm">{description}</p>
+      </div>
+
       <div className="p-4">
-        <h2 className="text-xl font-bold">{title}</h2>
-        <p className="text-gray-600">{location}</p>
-        <p className="text-sm mt-2">{description.slice(0, 80)}...</p>
+        <Link to={link}>
+          <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+            View More
+          </button>
+        </Link>
       </div>
     </div>
   );
