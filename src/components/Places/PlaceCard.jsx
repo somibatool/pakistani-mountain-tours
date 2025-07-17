@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const PlaceCard = ({ img, title, location, description, link }) => {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col cursor-pointer">
-      <img src={img} alt={title} className="w-full h-48 object-cover rounded-t-xl" />
+      <img
+        src={img}
+        alt={title}
+        className="w-full h-48 object-cover rounded-t-xl"
+      />
 
       <div className="p-4 flex-grow">
         <h2 className="text-xl font-bold mb-2">{title}</h2>

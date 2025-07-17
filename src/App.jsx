@@ -8,8 +8,13 @@ import PlacesRoute from "./pages/PlacesRoute";
 import About from "./pages/About";
 import BlogsDetails from "./pages/BlogsDetails";
 import Contact from "./pages/Contact";
-import PlaceDetail from "./components/Places/PlaceDetail"; // ✅ Import this
-import placeDetailHunza from "./components/Places/placeDetailHunza"
+import PlaceDetail from "./components/Places/PlaceDetail";
+import PlaceDetailHunza from "./components/Places/placeDetailHunza";
+import FairyMedows from "./components/Places/fairyMedows";
+import Autumn from "./components/Places/Autumn";
+import Lake from "./components/Places/lake";
+import Nalter from "./components/Places/nalter";
+import TrekkingTours from "./components/Places/TrekkingTours";
 import CustomerCounter from "./components/counter/customerCounter";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,20 +27,29 @@ const App = () => {
       easing: "ease-in-sine",
       delay: 100,
     });
-    AOS.refresh()
+    AOS.refresh();
   }, []);
 
   return (
     <>
-   <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="blogs/:id" element={<BlogsDetails />} />
             <Route path="best-places" element={<PlacesRoute />} />
-            <Route path="place-detail/:title" element={<PlaceDetail />} /> {/*Added here */}
-            <Route path="place/:title" element={<placeDetailHunza />} /> {/*Added here */}
+            <Route path="/trekking-tours" element={<TrekkingTours />} />
+            <Route path="place-detail/:title" element={<PlaceDetail />} />{" "}
+            {/*Added here */}
+            <Route
+              path="/placeDetailHunza/:title"
+              element={<PlaceDetailHunza />}
+            />
+            <Route path="/fairyMedowsDetail/:title" element={<FairyMedows />} />
+            <Route path="/autumnDetail/:title" element={<Autumn />} />
+            <Route path="/lakeDetail/:title" element={<Lake />} />
+            <Route path="/nalterDetail/:title" element={<Nalter />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />

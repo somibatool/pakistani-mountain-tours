@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-const PlaceDetail = () => {
+const FairyMedows = () => {
   const { title } = useParams();
 
   return (
-    <div className="min-h-screen bg-white  pt-24 px-4 md:px-10 pb-10 overflow-y-auto">
+    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto">
       <div className="max-w-4xl rounded-lg p-6 space-y-6">
 
         {/* Title Section */}
@@ -23,33 +23,17 @@ const PlaceDetail = () => {
         {/* Tour Schedule */}
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 mb-3">TOUR SCHEDULE</h2>
-          <h3 className="text-lg font-bold text-gray-700 mb-1">Destination: Thailand</h3>
+          <h3 className="text-lg font-bold text-gray-700 mb-1">Destination: Fairy Medows</h3>
           
           <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
-            <li>
-              <strong>Day 12 – Islamabad:</strong> Arrival and briefing, evening flight. Overnight at Hotel Crossroads.
-            </li>
-            <li>
-              <strong>Day 23 – Islamabad to Skardu:</strong> Scenic flight, view of Nanga Parbat, visit Manthal Buddha, Sadpara Lake, and Kachura lakes. Overnight at Himmel Skardu.
-            </li>
-            <li>
-              <strong>Day 33 – Skardu to Hunza:</strong> View 3 mountain ranges, Old Silk Road, Rakaposhi viewpoint, Baltit Fort, Duiker sunset. Overnight at Fairy Land Hotel Hunza.
-            </li>
-            <li>
-              <strong>Day 4 – Hunza to Passu Gojal:</strong> Sunrise view, Altit Fort, Attabad Lake, Passu & Batura Glacier, Hussaini bridge. Overnight at Villa Darya Hunza.
-            </li>
-            <li>
-              <strong>Day 5 – Fairy Meadows:</strong> Travel via Raikot Bridge & hike to Fairy Meadows. Overnight in cabins.
-            </li>
-            <li>
-              <strong>Day 6 – Viewpoint Hike:</strong> Hike to Beyal Camp, Nanga Parbat viewpoint. Return to hotel.
-            </li>
-            <li>
-              <strong>Day 7 – Return to Naran/Besham:</strong> Via Babusar Pass or KKH. Overnight at Naran/Besham.
-            </li>
-            <li>
-              <strong>Day 8 – Islamabad & Departure:</strong> Visit Taxila, Faisal Mosque, Monument. Departure for Bangkok.
-            </li>
+            <li><strong>Day 1 – Islamabad:</strong> Arrival and briefing, evening flight. Overnight at Hotel Crossroads.</li>
+            <li><strong>Day 2 – Islamabad to Skardu:</strong> Scenic flight, view of Nanga Parbat, visit Manthal Buddha, Sadpara Lake, and Kachura lakes. Overnight at Himmel Skardu.</li>
+            <li><strong>Day 3 – Skardu to Hunza:</strong> View 3 mountain ranges, Old Silk Road, Rakaposhi viewpoint, Baltit Fort, Duiker sunset. Overnight at Fairy Land Hotel Hunza.</li>
+            <li><strong>Day 4 – Hunza to Passu Gojal:</strong> Sunrise view, Altit Fort, Attabad Lake, Passu & Batura Glacier, Hussaini bridge. Overnight at Villa Darya Hunza.</li>
+            <li><strong>Day 5 – Fairy Meadows:</strong> Travel via Raikot Bridge & hike to Fairy Meadows. Overnight in cabins.</li>
+            <li><strong>Day 6 – Viewpoint Hike:</strong> Hike to Beyal Camp, Nanga Parbat viewpoint. Return to hotel.</li>
+            <li><strong>Day 7 – Return to Naran/Besham:</strong> Via Babusar Pass or KKH. Overnight at Naran/Besham.</li>
+            <li><strong>Day 8 – Islamabad & Departure:</strong> Visit Taxila, Faisal Mosque, Monument. Departure for Bangkok.</li>
           </ul>
         </section>
 
@@ -83,9 +67,10 @@ const PlaceDetail = () => {
           <p>Email: pakistanimountaintour@gmail.com</p>
           <p>Phone: +66 956071467</p>
         </section>
+
       </div>
     </div>
   );
 };
 
-export default PlaceDetail;
+export default FairyMedows;
