@@ -45,22 +45,22 @@ const PlaceDetail = () => {
       <div className="grid grid-cols-4 gap-4">
         {/* <img src="/src/assets/fairymedows.jpg" alt="Hunza Tour" className="w-full rounded-lg" /> */}
         <img
-          src="/src/assets/hunzaganish.jpg"
+          src="/IMG_1328.JPG"
           alt="Hunza Tour"
           className="w-full rounded-lg"
         />
         <img
-          src="/src/assets/hunzaganish.jpg"
+          src="/IMG_1332.jpg"
           alt="Hunza Tour"
           className="w-full rounded-lg"
         />
         <img
-          src="/src/assets/nightview hunza.jpg"
+          src="/IMG_1460.JPG"
           alt="Hunza Tour"
           className="w-full rounded-lg"
         />
         <img
-          src="/src/assets/skarduheart.jpg"
+          src="/IMG_1465.jpg"
           alt="Hunza Tour"
           className="w-full rounded-lg"
         />

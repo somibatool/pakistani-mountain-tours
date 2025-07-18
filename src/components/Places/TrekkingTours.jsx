@@ -14,6 +14,7 @@ const TrekkingData = [
     location: "Skardu",
     description: "One of the most iconic trekking routes in Pakistan.",
     link: "/trekkingDetail/k2-base-camp"
+
   },
   {
     img: Img2,
@@ -21,6 +22,7 @@ const TrekkingData = [
     location: "Astore",
     description: "Scenic trek towards Nanga Parbat base camp.",
     link: "/trekkingDetail/fairy-meadows"
+
   },
   {
     img: Img3,
@@ -35,6 +37,7 @@ const TrekkingData = [
     location: "Hopar Valley",
     description: "Trek to one of the highest alpine lakes.",
     link: "/trekkingDetail/rush-lake"
+    
   }
 ];
 

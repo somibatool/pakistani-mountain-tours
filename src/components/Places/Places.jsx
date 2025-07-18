@@ -10,48 +10,51 @@ import Img6 from "../../assets/places/place6.jpg";
 const PlacesData = [
   {
     img: Img1,
-    title: "Boat",
+    title: "Karakoram And Himalayas",
     location: "Attabad Lake",
-    description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    link: "/place-detail/boat"
+    description: "Starting point: Islamabad Airport End: Islamabad Airport Duration Trip :...",
+    link: "/place-detail/Karakoram And Himalayas"
   },
   {
  
   img: Img2,
-  title: "Karimabad Hunza",
+  title: "Hindu Kush And Karakoram",
   location: "Hunza",
-  description: "...",
-  link: "/placeDetailHunza/karimabad-hunza"
+  description: "Start point: Islamabad End point: Islamabad Ideal time: May to...",
+  link: "/placeDetailHunza/Hindu Kush And Karakoram"
 }
 
   ,
   {
     img: Img3,
-    title: "Fairy Meadows",
+    title: "Gilgit Balistan Tour",
     location: "Astore",
-    description: "...",
-    link: "/fairyMedowsDetail/fairy-meadows"
+    description: "Gilgit Baltistan Pakistan – Land of Lakes and Landscapes Vistas...",
+    link: "/fairyMedowsDetail/Gilgit Balistan Tour"
   },
   {
     img: Img4,
-    title: "Autumn",
+   
+      title: "Spring/Autumn Tour – Gilgit-Baltistan",
+      // title: "Autumn",
     location: "Gilgit KKH",
-    description: "...",
-    link: "/autumnDetail/autumn"
+    description: "Cost: Ask (depends on the number of people) Included: One...",
+    link: "/autumnDetail/Spring/Autumn Tour – Gilgit-Baltistan"
   },
   {
     img: Img5,
-    title: "Lake",
+     title: "South Pakistan’s Cultural Heritage",
+    // title: "Lake",
     location: "Skardu",
-    description: "...",
-    link: "/lakeDetail/skardu-lake"
+    description: "Cost: Ask (depends on the number of people) Included: All...",
+    link: "/lakeDetail/South Pakistan’s Cultural Heritage"
   },
   {
     img: Img6,
-    title: "Fairy Meadows",
+    title: "Pakistan’s Cultural, Historical & Religious Tour",
     location: "Naltar",
-    description: "...",
-    link: "/nalterDetail/fairy-meadows-naltar"
+    description: "Cost: Ask (depends on the number of people) Included: All..",
+    link: "/nalterDetail/Pakistan’s Cultural, Historical & Religious Tour"
   },
 ];
 
