@@ -1,4 +1,10 @@
 import React from "react";
+import Img1 from '../../assets/autumn/autumn_12.jpg';
+import Img2 from '../../assets/autumn/autumn7.jpg';
+import Img3 from '../../assets/autumn/autumn43.jpg';
+import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
+import Img5 from '../../assets/autumn/tress.jpg';
+import Img6 from '../../assets/autumn/river.jpg';
 
 const FairyMeadowsDetail = () => {
   return (
@@ -8,6 +14,15 @@ const FairyMeadowsDetail = () => {
       <h1 className="text-4xl font-bold text-primary border-b pb-2 mb-4">
         Fairy Meadows Trekking Adventure
       </h1>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
+                <img src={Img1} alt="Autumn View 1" className="w-full h-48 object-cover rounded-lg" />
+                <img src={Img2} alt="Autumn View 2" className="w-full h-48 object-cover rounded-lg" />
+                <img src={Img3} alt="Autumn View 3" className="w-full h-48 object-cover rounded-lg" />
+                <img src={Img4} alt="Autumn View 4" className="w-full h-48 object-cover rounded-lg" />
+                <img src={Img5} alt="Autumn View 5" className="w-full h-48 object-cover rounded-lg" />
+                <img src={Img6} alt="Autumn View 6" className="w-full h-48 object-cover rounded-lg" />
+              </div>
+
 
       {/* Trip Highlights */}
       <p className="text-lg text-gray-800 mb-6">
@@ -27,14 +42,15 @@ const FairyMeadowsDetail = () => {
       </p>
 
       {/* Images Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-10">
-        <img src="/fairy-1.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-        <img src="/fairy-2.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-        <img src="/fairy-3.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-        <img src="/fairy-4.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-        <img src="/fairy-5.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-        <img src="/fairy-6.jpg" alt="Fairy Meadows" className="w-full rounded-lg" />
-      </div>
+     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-10">
+  <img src="/src/assets/IMG_1335.jpg" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/src/assets/IMG_1325.JPG" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/src/assets/IMG_1326.jpg" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/src/assets/autumn/attabad_lack.jpg" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/src/assets/autumn/nagr_valley.jpg" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/src/assets/autumn/hunza_mountain1.jpg" alt="Fairy Meadows" className="w-full h-48 object-cover rounded-lg" />
+</div>
+
 
       {/* Itinerary */}
       <section className="mb-10">

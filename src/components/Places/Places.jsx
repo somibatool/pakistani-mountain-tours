@@ -39,7 +39,8 @@ const PlacesData = [
       // title: "Autumn",
     location: "Gilgit KKH",
     description: "Cost: Ask (depends on the number of people) Included: One...",
-    link: "/autumnDetail/Spring/Autumn Tour – Gilgit-Baltistan"
+   link: "/autumnDetail/spring-autumn-tour"
+
   },
   {
     img: Img5,

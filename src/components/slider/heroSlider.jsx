@@ -6,12 +6,12 @@ import BikeImage from '../../assets/bike.jpg';
 import AiImage from '../../assets/Ai.jpg';
 import WaterfallImage from '../../assets/waterfall.jpg';
 const images = [
-  { src: SkarduImage, title: 'Explore Skardu', description: '...' },
-  { src: HunzaImage, title: 'Explore Hunza Valley', description: '...' },
-  { src: FairyMeadowsImage, title: 'Explore Fairy Meadows', description: '...' },
-  { src: BikeImage, title: 'Explore Fairy Meadows', description: '...' },
-  { src: AiImage, title: 'Explore Fairy Meadows', description: '...' },
-  { src: WaterfallImage, title: 'Explore Fairy Meadows', description: '...' },
+  { src: SkarduImage, title: 'Explore Skardu', description: 'Discover the hidden beauty of Skardu, its lakes, and snow-covered mountains.' },
+  { src: HunzaImage, title: 'Explore Hunza Valley', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
+  { src: FairyMeadowsImage, title: 'Explore Fairy Meadows', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
+  { src: BikeImage, title: 'Explore Fairy Meadows', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' },
+  { src: AiImage, title: 'Explore Fairy Meadows', description: 'Witness amazing landscapes and serene beauty all around.' },
+  { src: WaterfallImage, title: 'Explore Fairy Meadows', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
 ];
 
 // const images = [

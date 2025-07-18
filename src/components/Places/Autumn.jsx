@@ -1,5 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import Img1 from '../../assets/autumn/autumn_12.jpg';
+import Img2 from '../../assets/autumn/autumn7.jpg';
+import Img3 from '../../assets/autumn/autumn43.jpg';
+import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
+import Img5 from '../../assets/autumn/tress.jpg';
+import Img6 from '../../assets/autumn/river.jpg';
 
 const Autumn = () => {
   const { title } = useParams();
@@ -12,6 +18,14 @@ const Autumn = () => {
         <h1 className="text-4xl font-bold text-orange-700 border-b pb-2">
           About us: {title}
         </h1>
+         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
+          <img src={Img1} alt="Autumn View 1" className="w-full h-48 object-cover rounded-lg" />
+          <img src={Img2} alt="Autumn View 2" className="w-full h-48 object-cover rounded-lg" />
+          <img src={Img3} alt="Autumn View 3" className="w-full h-48 object-cover rounded-lg" />
+          <img src={Img4} alt="Autumn View 4" className="w-full h-48 object-cover rounded-lg" />
+          <img src={Img5} alt="Autumn View 5" className="w-full h-48 object-cover rounded-lg" />
+          <img src={Img6} alt="Autumn View 6" className="w-full h-48 object-cover rounded-lg" />
+        </div>
 
         {/* Company Info */}
         <div className="text-sm text-gray-600 leading-relaxed">
