@@ -27,7 +27,7 @@ const RushLakeDetail = () => {
 
       {/* Images Grid */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-10">
-        <img src="/rush-1.jpg" alt="Rush Lake Trek" className="w-full rounded-lg" />
+        <img src="/src/assets/travelbox.png" alt="Rush Lake Trek" className="w-full rounded-lg" />
         <img src="/rush-2.jpg" alt="Rush Lake Trek" className="w-full rounded-lg" />
         <img src="/rush-3.jpg" alt="Rush Lake Trek" className="w-full rounded-lg" />
         <img src="/rush-4.jpg" alt="Rush Lake Trek" className="w-full rounded-lg" />

@@ -1,13 +1,27 @@
 import { useEffect, useState } from 'react';
-
+import SkarduImage from '../../assets/skarduheart.jpg';
+import HunzaImage from '../../assets/hunzavalley.jpg';
+import FairyMeadowsImage from '../../assets/hunzasuspension.jpg';
+import BikeImage from '../../assets/bike.jpg';
+import AiImage from '../../assets/Ai.jpg';
+import WaterfallImage from '../../assets/waterfall.jpg';
 const images = [
-  { src: '/src/assets/skarduheart.jpg', title: 'Explore Skardu', description: 'Discover the hidden beauty of Skardu, its lakes, and snow-covered mountains.' },
-  { src: '/src/assets/hunzavalley.jpg', title: 'Explore Hunza Valley', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
-  { src: '/src/assets/hunzasuspension.jpg', title: 'Explore Fairy Meadows', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
-  { src: '/src/assets/bike.jpg', title: 'Explore Fairy Meadows', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' },
-  { src: '/src/assets/Ai.jpg', title: 'Explore Fairy Meadows', description: 'Witness amazing landscapes and serene beauty all around.' },
-  { src: '/src/assets/waterfall.jpg', title: 'Explore Fairy Meadows', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
+  { src: SkarduImage, title: 'Explore Skardu', description: '...' },
+  { src: HunzaImage, title: 'Explore Hunza Valley', description: '...' },
+  { src: FairyMeadowsImage, title: 'Explore Fairy Meadows', description: '...' },
+  { src: BikeImage, title: 'Explore Fairy Meadows', description: '...' },
+  { src: AiImage, title: 'Explore Fairy Meadows', description: '...' },
+  { src: WaterfallImage, title: 'Explore Fairy Meadows', description: '...' },
 ];
+
+// const images = [
+//   { src: '/src/assets/skarduheart.jpg', title: 'Explore Skardu', description: 'Discover the hidden beauty of Skardu, its lakes, and snow-covered mountains.' },
+//   { src: '/src/assets/hunzavalley.jpg', title: 'Explore Hunza Valley', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
+//   { src: '/src/assets/hunzasuspension.jpg', title: 'Explore Fairy Meadows', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
+//   { src: '/src/assets/bike.jpg', title: 'Explore Fairy Meadows', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' },
+//   { src: '/src/assets/Ai.jpg', title: 'Explore Fairy Meadows', description: 'Witness amazing landscapes and serene beauty all around.' },
+//   { src: '/src/assets/waterfall.jpg', title: 'Explore Fairy Meadows', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
+// ];
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,6 +38,7 @@ const HeroSlider = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
+      
       <img
         src={currentImage.src}
         alt={currentImage.title}
