@@ -19,7 +19,13 @@ import ScrollToTop from "../ScrollToTop";
 import K2BaseCampDetail from "./components/Places/K2BaseCampDetail";
 import FairyMeadowsDetail from "./components/Places/FairyMeadowsDetail";
 import RakaposhiBaseCampDetail from "./components/Places/RakaposhiBaseCampDetail";
-import RushLakeDetail from "./components/Places/RushLakeDetail";
+import BikeTours from "./components/Places/BikeTours";
+import BikeDetailPage from "./components/Places/BikeDetailPage";
+import KarakoramHighwayDetail from "./components/Places/KarakoramHighwayDetail";
+import KhunjerabPassDetail from "./components/Places/KhunjerabPassDetail";
+
+// import BikeDetailPage from './components/BikeDetailPage';
+
 // import ScrollToTop from "./ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -46,17 +52,41 @@ const App = () => {
           <Route path="blogs" element={<Blogs />} />
           <Route path="blogs/:id" element={<BlogsDetails />} />
           <Route path="best-places" element={<PlacesRoute />} />
-         <Route path="/TrekkingTours" element={<TrekkingTours />} />
+          <Route path="/TrekkingTours" element={<TrekkingTours />} />
+          <Route path="/bike-tours" element={<BikeTours />} />
           <Route path="place-detail/:title" element={<PlaceDetail />} />
-          <Route path="/placeDetailHunza/:title" element={<PlaceDetailHunza />} />
+          <Route
+            path="/placeDetailHunza/:title"
+            element={<PlaceDetailHunza />}
+          />
           <Route path="/fairyMedowsDetail/:title" element={<FairyMedows />} />
           <Route path="/autumnDetail/:title" element={<Autumn />} />
           <Route path="/lakeDetail/:title" element={<Lake />} />
           <Route path="/nalterDetail/:title" element={<Nalter />} />
-          <Route path="/trekkingDetail/k2-base-camp" element={<K2BaseCampDetail />} />
-          <Route path="/trekkingDetail/fairy-meadows" element={<FairyMeadowsDetail />} />
-          <Route path="/trekkingDetail/rakaposhi-base-camp" element={<RakaposhiBaseCampDetail />} />
-          <Route path="/trekkingDetail/rush-lake" element={<RushLakeDetail />} />
+          <Route
+            path="/trekkingDetail/k2-base-camp"
+            element={<K2BaseCampDetail />}
+          />
+          <Route
+            path="/trekkingDetail/fairy-meadows"
+            element={<FairyMeadowsDetail />}
+          />
+          <Route
+            path="/trekkingDetail/rakaposhi-base-camp"
+            element={<RakaposhiBaseCampDetail />}
+          />
+          <Route path="/bikeDetail/:title" element={<BikeDetailPage />} />
+
+          <Route
+            path="/bikeDetail/:title"
+            element={<KarakoramHighwayDetail />}
+          />
+          <Route
+            path="/bikeDetail/title"
+            element={<KhunjerabPassDetail />}
+          />
+
+          {/* <Route path="/bikeDetail/:title" element={<BikeDetailPage />} /> */}
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />

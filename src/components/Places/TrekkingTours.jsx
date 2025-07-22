@@ -5,7 +5,7 @@ import PlaceCard from "./PlaceCard"; // Reuse same card
 import Img1 from "../../assets/hunzavalley.jpg";
 import Img2 from "../../assets/hunzavalley.jpg";
 import Img3 from "../../assets/hunzavalley.jpg";
-import Img4 from "../../assets/hunzavalley.jpg";
+
 
 const TrekkingData = [
   {
@@ -31,14 +31,7 @@ const TrekkingData = [
     description: "Adventure through green meadows and glaciers.",
     link: "/trekkingDetail/rakaposhi-base-camp"
   },
-  {
-    img: Img4,
-    title: "Rush Lake Trek",
-    location: "Hopar Valley",
-    description: "Trek to one of the highest alpine lakes.",
-    link: "/trekkingDetail/rush-lake"
-    
-  }
+
 ];
 
 const TrekkingTours = ({ handleOrderPopup }) => {

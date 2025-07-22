@@ -10,7 +10,8 @@ import BannerImg from "../assets/cover-women.jpg";
 import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import TrekkingTours from "../components/Places/TrekkingTours";
-
+import BikeTours from "../components/Places/BikeTours";
+import CompanyIntro from "../components/CompanyIntro";
 // import TrekkingTours from './components/Places/TrekkingTours';
 import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
 import HeroSlider from "../components/slider/heroSlider";
@@ -31,6 +32,8 @@ const Home = () => {
         <div className="my-20">
           {/* <TrekkingTours /> */}
             <TrekkingTours />
+            <BikeTours />
+             <CompanyIntro />
           <CustomerCounter />
         </div>
         <BlogsComp />

@@ -6,84 +6,104 @@ import Img3 from '../../assets/autumn/autumn43.jpg';
 import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
 import Img5 from '../../assets/autumn/tress.jpg';
 import Img6 from '../../assets/autumn/river.jpg';
+import Img7 from '../../assets/autumn/river.jpg';
+import Img8 from '../../assets/autumn/river.jpg';
 
 const Autumn = () => {
   const { title } = useParams();
 
   return (
-    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto">
-      <div className="max-w-4xl rounded-lg p-6 space-y-6">
+     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-6">
+      <h1 className="text-4xl font-bold text-center text-primary mb-6">
+        {title} - Hunza & Skardu Autumn Tour
+      </h1>
 
-        {/* Title Section */}
-        <h1 className="text-4xl font-bold text-orange-700 border-b pb-2">
-          About us: {title}
-        </h1>
-         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
-          <img src={Img1} alt="Autumn View 1" className="w-full h-48 object-cover rounded-lg" />
-          <img src={Img2} alt="Autumn View 2" className="w-full h-48 object-cover rounded-lg" />
-          <img src={Img3} alt="Autumn View 3" className="w-full h-48 object-cover rounded-lg" />
-          <img src={Img4} alt="Autumn View 4" className="w-full h-48 object-cover rounded-lg" />
-          <img src={Img5} alt="Autumn View 5" className="w-full h-48 object-cover rounded-lg" />
-          <img src={Img6} alt="Autumn View 6" className="w-full h-48 object-cover rounded-lg" />
-        </div>
+      <h3 className="text-lg font-semibold text-center mb-4 text-gray-700">
+        Witness the Golden Fall Season of Northern Pakistan
+      </h3>
 
-        {/* Company Info */}
-        <div className="text-sm text-gray-600 leading-relaxed">
-          <p><strong>PAKISTANI MOUNTAIN TOURS (PVT), LTD</strong></p>
-          <p>License No. ID-2590</p>
-          <p>Department of Tourist Services, Government of Pakistan</p>
-        </div>
+      <div className="text-center text-sm text-gray-600 mb-10">
+        <p>Starting point: Islamabad Airport | End: Islamabad Airport</p>
+        <p>Duration Trip: 7 nights / 8 days</p>
+        <p>Ideal time: Mid-October to Mid-November</p>
+      </div>
 
-        {/* Tour Schedule */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-3">TOUR SCHEDULE</h2>
-          <h3 className="text-lg font-bold text-gray-700 mb-1">Destination: Autumn in Hunza & Skardu</h3>
-          
-          <ul className="list-disc list-inside space-y-4 text-gray-700 text-sm md:text-base">
-            <li><strong>Day 1 – Islamabad:</strong> Arrival and briefing. Enjoy autumn colors in the capital city parks. Overnight at hotel.</li>
-            <li><strong>Day 2 – Islamabad to Skardu:</strong> Scenic flight with views of autumn forests. Visit lakes and forts. Overnight at Skardu hotel.</li>
-            <li><strong>Day 3 – Skardu:</strong> Explore Shigar Valley and Cold Desert. Witness golden-yellow autumn leaves. Visit Shigar Fort.</li>
-            <li><strong>Day 4 – Skardu to Hunza:</strong> Drive towards Hunza Valley through the Karakoram Highway. Photography stops along riverside autumn trees.</li>
-            <li><strong>Day 5 – Hunza Exploration:</strong> Explore Altit Fort, Baltit Fort, Attabad Lake, Passu Cones, and enjoy the vibrant autumn scenery.</li>
-            <li><strong>Day 6 – Duikar & Hopper:</strong> Catch sunset/sunrise views over Hunza from Duikar viewpoint. Visit Hopper Glacier in Nagar Valley.</li>
-            <li><strong>Day 7 – Return to Naran/Besham:</strong> Drive back enjoying more autumn vistas. Overnight at Naran or Besham.</li>
-            <li><strong>Day 8 – Return to Islamabad:</strong> Farewell dinner and departure.</li>
-          </ul>
-        </section>
+      <h2 className="text-2xl font-semibold text-black mb-3">Trip Overview</h2>
+      <p className="text-gray-800 mb-8 leading-relaxed">
+        The Autumn Tour of Hunza and Skardu offers breathtaking landscapes of golden-yellow trees,
+        snow-dusted peaks, and mirror-like lakes. This tour is designed for photography enthusiasts and
+        nature lovers seeking the charm of Pakistan’s northern valleys during fall. Enjoy visits to forts,
+        lakes, glaciers, and cultural hubs while soaking in the vibrant autumn colors.
+      </p>
 
-        {/* Cost & Inclusions */}
-        <section className="pt-6 border-t">
-          <h2 className="text-xl font-semibold text-gray-800">Trip Includes:</h2>
-          <ul className="list-disc list-inside text-gray-700 text-sm md:text-base">
-            <li>4-star Hotels</li>
-            <li>All Meals (Breakfast, Lunch, Dinner)</li>
-            <li>Transport & Fuel</li>
-            <li>Entrance Fees</li>
-            <li>Photography Assistance</li>
-            <li>Professional Tour Guide</li>
-          </ul>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <img src={Img1} alt="Tour 1" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img2} alt="Tour 2" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img3} alt="Tour 3" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img4} alt="Tour 4" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img5} alt="Tour 5" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img6} alt="Tour 6" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img7} alt="Tour 7" className="w-full h-48 object-cover rounded-lg" />
+        <img src={Img8} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+      </div>
 
-          <h2 className="text-xl font-semibold mt-4 text-gray-800">Not Included:</h2>
-          <ul className="list-disc list-inside text-gray-700 text-sm md:text-base">
-            <li>International Flights</li>
-            <li>Personal Expenses</li>
-          </ul>
+      <table className="w-full border border-gray-300 text-sm mb-10">
+        <tbody>
+          <tr className="border border-gray-300">
+            <td className="p-3 font-semibold border border-gray-300">Cost:</td>
+            <td className="p-3 border border-gray-300">28,000 PKR per person</td>
+          </tr>
+          <tr className="border border-gray-300 align-top">
+            <td className="p-3 font-semibold border border-gray-300">Included:</td>
+            <td className="p-3 border border-gray-300">
+              <ul className="list-disc list-inside space-y-1">
+                <li>4-star Hotels</li>
+                <li>All Meals (Breakfast, Lunch, Dinner)</li>
+                <li>Transport & Fuel</li>
+                <li>Entrance Fees</li>
+                <li>Photography Assistance</li>
+                <li>Professional Tour Guide</li>
+              </ul>
+            </td>
+          </tr>
+          <tr className="border border-gray-300 align-top">
+            <td className="p-3 font-semibold border border-gray-300">Excluded:</td>
+            <td className="p-3 border border-gray-300">
+              <ul className="list-disc list-inside space-y-1">
+                <li>International Flights</li>
+                <li>Personal Expenses</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-          <p className="mt-4 font-semibold text-gray-800">
-            <strong>Total Cost Per Person:</strong> 28,000 PKR
-          </p>
-        </section>
+      <h2 className="text-2xl font-semibold text-black mb-4">Tour Schedule</h2>
+      <ul className="list-inside text-gray-800 leading-relaxed space-y-4 mb-10">
+        <li><strong>Day 1:</strong> Arrival at Islamabad. Explore capital parks adorned in autumn foliage. Overnight stay.</li>
+        <li><strong>Day 2:</strong> Flight to Skardu. Visit lakes and forts amidst autumn vistas.</li>
+        <li><strong>Day 3:</strong> Shigar Valley, Cold Desert, and golden autumn photography day.</li>
+        <li><strong>Day 4:</strong> Drive to Hunza via Karakoram Highway. Rivers and autumn trees en route.</li>
+        <li><strong>Day 5:</strong> Explore Altit Fort, Baltit Fort, Passu Cones, and Attabad Lake surrounded by fall colors.</li>
+        <li><strong>Day 6:</strong> Sunrise at Duikar, Hopper Glacier visit. Relax in Hunza.</li>
+        <li><strong>Day 7:</strong> Return journey towards Besham or Naran. Overnight stay en route.</li>
+        <li><strong>Day 8:</strong> Final drive to Islamabad. Farewell dinner and departure.</li>
+      </ul>
 
-        {/* Contact */}
-        <section className="pt-6 border-t text-sm text-gray-600">
-          <h3 className="text-md font-semibold mb-1 text-gray-800">Contact:</h3>
-          <p>Arif Market Cinema Bazar, Gilgit, Pakistan</p>
-          <p>Email: pakistanimountaintour@gmail.com</p>
-          <p>Phone: +66 956071467</p>
-        </section>
+      <div className="border-t pt-6 text-sm text-gray-700">
+        <p><strong>PAKISTANI MOUNTAIN TOURS (PVT) LTD</strong></p>
+        <p>License No. ID-2590</p>
+        <p>Department of Tourist Services, Government of Pakistan</p>
+      </div>
 
+      <div className="border-t pt-6 text-sm text-gray-700">
+        <h3 className="font-semibold text-black mb-1">Contact:</h3>
+        <p>Arif Market Cinema Bazar, Gilgit, Pakistan</p>
+        <p>Email: pakistanimountaintour@gmail.com</p>
+        <p>Phone: +66 956071467</p>
       </div>
     </div>
+  
   );
 };
 

@@ -20,7 +20,7 @@ const PlaceDetail = () => {
       <div className="text-center text-sm text-gray-600 mb-10">
         <p>Starting point: Islamabad Airport | End: Islamabad Airport</p>
         <p>Duration Trip : 10 nights /11 days</p>
-        <p>Ideal time: May to end of October</p>
+        <p>Ideal time: March to November</p>
       </div>
 
       {/* Tour Description */}
@@ -61,17 +61,17 @@ const PlaceDetail = () => {
       {/* Image Gallery */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
         <img
-          src="/public/hunza_tree.jpg"
+          src="/hunza_tree.jpg"
           alt="Tour 1"
           className="w-full h-48 object-cover rounded-lg"
         />
         <img
-          src="/public/karimabad_old_house.jpg"
+          src="/karimabad_old_house.jpg"
           alt="Tour 2"
           className="w-full h-48 object-cover rounded-lg"
         />
         <img
-          src="/public/river.jpg"
+          src="/river.jpg"
           alt="Tour 3"
           className="w-full h-48 object-cover rounded-lg"
         />
@@ -81,12 +81,12 @@ const PlaceDetail = () => {
           className="w-full h-48 object-cover rounded-lg"
         />
         <img
-          src="/public/boat.jpg"
+          src="/boat.jpg"
           alt="Tour 5"
           className="w-full h-48 object-cover rounded-lg"
         />
         <img
-          src="/public/hunzasuspension.jpg"
+          src="/hunzasuspension.jpg"
           alt="Tour 6"
           className="w-full h-48 object-cover rounded-lg"
         />

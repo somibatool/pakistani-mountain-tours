@@ -39,7 +39,7 @@ const PlacesData = [
       // title: "Autumn",
     location: "Gilgit KKH",
     description: "Cost: Ask (depends on the number of people) Included: One...",
-   link: "/autumnDetail/spring-autumn-tour"
+   link: "/autumnDetail/Spring-autumn-tour"
 
   },
   {
