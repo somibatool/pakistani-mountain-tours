@@ -44,7 +44,8 @@ const CompanyIntro = () => {
       {/* Right Section: Video */}
       <div className="w-full md:w-1/2">
         <video
-          src="/src/assets/video/main.mp4"
+          
+          src="../src/assets/video/main.mp4"
           controls
           autoPlay
           muted
