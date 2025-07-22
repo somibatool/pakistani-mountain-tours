@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MainVideo from '../assets/video/main.mp4';
 
 const CompanyIntro = () => {
   return (
@@ -39,19 +40,21 @@ const CompanyIntro = () => {
   </Link>
 </div>
 
+
+
+
       </div>
 
       {/* Right Section: Video */}
       <div className="w-full md:w-1/2">
-        <video
-          
-          src="../src/assets/video/main.mp4"
-          controls
-          autoPlay
-          muted
-          loop
-          className="w-full h-[400px] object-cover rounded-xl shadow-lg"
-        />
+     <video
+  src={MainVideo}
+  controls
+  autoPlay
+  muted
+  loop
+  className="w-full h-[400px] object-cover rounded-xl shadow-lg"
+/>
       </div>
 
     </div>
