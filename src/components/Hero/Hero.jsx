@@ -12,14 +12,7 @@ const Hero = () => {
       Let's Explore The World With Us (Pakistan, Thailand)
     </p>
 
-    <a
-      href="https://wa.me/9266956071567"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block px-6 py-3 bg-[#00A9B9] text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out hover:bg-[#0092a1]"
-    >
-      Contact Us on WhatsApp
-    </a>
+ 
   </div>
 </div>
 

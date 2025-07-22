@@ -147,7 +147,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-               Develop ❤️ by somi batool 
+              PAKISTANI MOUNTAIN TOURS © 2025 All Right Reserved.
             </div>
           </div>
         </div>

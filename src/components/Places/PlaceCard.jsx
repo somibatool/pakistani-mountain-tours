@@ -17,9 +17,11 @@ const PlaceCard = ({ img, title, location, description, link }) => {
 
       <div className="p-4">
         <Link to={link}>
-          <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-            View More
-          </button>
+         <button className="w-full bg-blue-600 text-white py-2 rounded-full flex items-center justify-center gap-2 hover:bg-blue-700 hover:scale-105 transition-all duration-300 ease-in-out">
+  View
+  <span className="text-lg">{'>'}</span>
+</button>
+
         </Link>
       </div>
     </div>
