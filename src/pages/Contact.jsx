@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Location from "../components/Location/Location"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -190,7 +191,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
+     
       </div>
+       <  Location />
     </>
   );
 };
