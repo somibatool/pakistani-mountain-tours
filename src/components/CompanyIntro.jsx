@@ -15,8 +15,6 @@ const CompanyIntro = () => {
   We are pleased to introduce ourselves as <strong>PAKISTANI MOUNTAIN TOURS (PVT) LTD (PMT)</strong>. 
   We are a registered Tourism Company (License No. ID-2590) under the <strong>Department of Tourist Services, Government of Pakistan</strong>. 
   We operate from Arif Market Cinema Bazar, Gilgit, Pakistan. For any inquiries, feel free to contact us.
-   
-
 </p>
 
 

@@ -54,9 +54,8 @@ const Footer = () => {
               </h1>
 
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+               <p>Pakistani Mountain Tours is your trusted guide to the breathtaking landscapes of Pakistan. We specialize in unforgettable adventures, cultural experiences, and mountain expeditions that showcase the true beauty of the region.</p>
+
               </p>
               <br />
               <div className="flex items-center gap-3 ">
@@ -69,7 +68,7 @@ const Footer = () => {
               </div>
               {/* social handles */}
               <div>
-                <div className="flex items-center gap-3 mt-6">
+                {/* <div className="flex items-center gap-3 mt-6">
                   <a href="#">
                     <FaInstagram className="text-3xl" />
                   </a>
@@ -79,7 +78,7 @@ const Footer = () => {
                   <a href="#">
                     <FaLinkedin className="text-3xl" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">

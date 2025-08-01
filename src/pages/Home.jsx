@@ -14,6 +14,7 @@ import BikeTours from "../components/Places/BikeTours";
 import CompanyIntro from "../components/CompanyIntro";
 // import TrekkingTours from './components/Places/TrekkingTours';
 import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
+import StayConnected from "./StayConnected";
 import HeroSlider from "../components/slider/heroSlider";
 
 const Home = () => {
@@ -36,10 +37,11 @@ const Home = () => {
              <CompanyIntro />
           <CustomerCounter />
         </div>
-        <BlogsComp />
+        {/* <BlogsComp /> */}
         <Banner />
-        <BannerPic img={Banner2} />
+        {/* <BannerPic img={Banner2} /> */}
         <Testimonial />
+      <  StayConnected/>
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
 
       </div>
