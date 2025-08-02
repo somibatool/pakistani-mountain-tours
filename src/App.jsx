@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
+
 import NoPage from "./pages/NoPage";
 import PlacesRoute from "./pages/PlacesRoute";
 import About from "./pages/About";
@@ -17,7 +17,7 @@ import Nalter from "./components/Places/nalter";
 import TrekkingTours from "./components/Places/TrekkingTours";
 import ScrollToTop from "../ScrollToTop";
 import K2BaseCampDetail from "./components/Places/K2BaseCampDetail";
-import FairyMeadowsDetail from "./components/Places/FairyMeadowsDetail";
+import RushPeakDetail from "./components/Places/RushPeakDetail";
 import RakaposhiBaseCampDetail from "./components/Places/RakaposhiBaseCampDetail";
 import BikeTours from "./components/Places/BikeTours";
 import BikeDetailPage from "./components/Places/BikeDetailPage";
@@ -29,6 +29,7 @@ import KhunjerabPassDetail from "./components/Places/KhunjerabPassDetail";
 // import ScrollToTop from "./ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Gallery from "./pages/Gallery";
 
 const App = () => {
   React.useEffect(() => {
@@ -49,7 +50,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
+          <Route path="gallery" element={<Gallery />} />
           <Route path="blogs/:id" element={<BlogsDetails />} />
           <Route path="best-places" element={<PlacesRoute />} />
           <Route path="/TrekkingTours" element={<TrekkingTours />} />
@@ -68,8 +69,8 @@ const App = () => {
             element={<K2BaseCampDetail />}
           />
           <Route
-            path="/trekkingDetail/fairy-meadows"
-            element={<FairyMeadowsDetail />}
+            path="/trekkingDetail/Rush-peak-Trek"
+            element={<RushPeakDetail />}
           />
           <Route
             path="/trekkingDetail/rakaposhi-base-camp"

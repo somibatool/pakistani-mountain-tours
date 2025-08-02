@@ -21,8 +21,8 @@ export const NavbarLinks = [
     link: "/about",
   },
   {
-    name: "Blogs",
-    link: "/blogs",
+    name: "Gallary",
+    link: "/gallery",
   },
   {
     name: "Best Places",
@@ -130,8 +130,8 @@ const Navbar = ({ handleOrderPopup }) => {
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/blogs" activeClassName="active">
-                    Blogs
+                  <NavLink to="/gallery" activeClassName="active">
+                    Gallery
                   </NavLink>
                 </li>
                 <li className="py-4">

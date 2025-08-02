@@ -20,7 +20,7 @@ const PlaceDetail = () => {
       <div className="text-center text-sm text-gray-600 mb-10">
         <p>Starting point: Islamabad Airport | End: Islamabad Airport</p>
         <p>Duration Trip : 10 nights /11 days</p>
-        <p>Ideal time: May to end of October</p>
+        <p>Ideal time: March to November</p>
       </div>
 
       {/* Tour Description */}

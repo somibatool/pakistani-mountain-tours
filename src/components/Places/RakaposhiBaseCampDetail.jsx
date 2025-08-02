@@ -28,12 +28,16 @@ const RakaposhiBaseCampDetail = () => {
        </div>
  
        <h2 className="text-2xl font-semibold text-black mb-3">Trip Overview</h2>
-       <p className="text-gray-800 mb-8 leading-relaxed">
-         The Autumn Tour of Hunza and Skardu offers breathtaking landscapes of golden-yellow trees,
-         snow-dusted peaks, and mirror-like lakes. This tour is designed for photography enthusiasts and
-         nature lovers seeking the charm of Pakistan’s northern valleys during fall. Enjoy visits to forts,
-         lakes, glaciers, and cultural hubs while soaking in the vibrant autumn colors.
-       </p>
+     <p className="text-gray-800 mb-8 leading-relaxed">
+  The Autumn Tour of Hunza and Skardu offers breathtaking landscapes of golden-yellow trees,
+  snow-dusted peaks, and mirror-like lakes. This tour is designed for photography enthusiasts and
+  nature lovers seeking the charm of Pakistan’s northern valleys during fall. Enjoy visits to forts,
+  lakes, glaciers, and cultural hubs while soaking in the vibrant autumn colors.
+
+  <br /><br />
+  The Rakaposhi Base Camp Trek is a spectacular journey through Nagar Valley, offering stunning views of the majestic Rakaposhi peak. This 10-day adventure takes you through lush meadows, traditional villages, and glacier-fed streams, making it perfect for both seasoned trekkers and nature lovers. With breathtaking mountain scenery and a peaceful environment, the trek promises an unforgettable escape into the heart of the Karakoram.
+</p>
+
  
        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
          <img src={Img1} alt="Tour 1" className="w-full h-48 object-cover rounded-lg" />
@@ -77,17 +81,109 @@ const RakaposhiBaseCampDetail = () => {
          </tbody>
        </table>
  
-       <h2 className="text-2xl font-semibold text-black mb-4">Tour Schedule</h2>
-       <ul className="list-inside text-gray-800 leading-relaxed space-y-4 mb-10">
-         <li><strong>Day 1:</strong> Arrival at Islamabad. Explore capital parks adorned in autumn foliage. Overnight stay.</li>
-         <li><strong>Day 2:</strong> Flight to Skardu. Visit lakes and forts amidst autumn vistas.</li>
-         <li><strong>Day 3:</strong> Shigar Valley, Cold Desert, and golden autumn photography day.</li>
-         <li><strong>Day 4:</strong> Drive to Hunza via Karakoram Highway. Rivers and autumn trees en route.</li>
-         <li><strong>Day 5:</strong> Explore Altit Fort, Baltit Fort, Passu Cones, and Attabad Lake surrounded by fall colors.</li>
-         <li><strong>Day 6:</strong> Sunrise at Duikar, Hopper Glacier visit. Relax in Hunza.</li>
-         <li><strong>Day 7:</strong> Return journey towards Besham or Naran. Overnight stay en route.</li>
-         <li><strong>Day 8:</strong> Final drive to Islamabad. Farewell dinner and departure.</li>
-       </ul>
+       <h2 className="text-2xl font-semibold text-black mb-4">Tour Schedule – Rakaposhi Base Camp Trek</h2>
+<ul className="list-inside text-gray-800 leading-relaxed space-y-6 mb-10">
+  <li>
+    <strong>Day 1:</strong>
+    <h2 className="text-lg font-bold">Arrival in Islamabad</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Airport pickup</li>
+      <li>Hotel check-in</li>
+      <li>Briefing and trek preparation</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 2:</strong>
+    <h2 className="text-lg font-bold">Drive to Chilas via Naran/Babusar Pass</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Scenic drive through lush Kaghan Valley</li>
+      <li>Cross Babusar Pass (4,173m)</li>
+      <li>Overnight stay in Chilas</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 3:</strong>
+    <h2 className="text-lg font-bold">Drive to Minapin (Nagar Valley)</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Drive along Karakoram Highway</li>
+      <li>Enter Nagar Valley and reach Minapin village</li>
+      <li>Overnight in local guesthouse</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 4:</strong>
+    <h2 className="text-lg font-bold">Trek to Hapakun (2,800m)</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Start of the trek from Minapin</li>
+      <li>4-5 hour gradual ascent through pine forest</li>
+      <li>Camp at Hapakun Meadows</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 5:</strong>
+    <h2 className="text-lg font-bold">Trek to Rakaposhi Base Camp (Tagaphari)</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Steep but rewarding hike to base camp (3,800m)</li>
+      <li>Spectacular views of Rakaposhi and Diran Peaks</li>
+      <li>Overnight camping under the stars</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 6:</strong>
+    <h2 className="text-lg font-bold">Exploration and acclimatization day at Base Camp</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Optional hike to nearby glacier</li>
+      <li>Photography and relaxation</li>
+      <li>Enjoy panoramic mountain scenery</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 7:</strong>
+    <h2 className="text-lg font-bold">Trek back to Minapin</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Descend through meadows and forests</li>
+      <li>Reach Minapin by afternoon</li>
+      <li>Guesthouse stay and rest</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 8:</strong>
+    <h2 className="text-lg font-bold">Drive to Hunza Valley – Explore Karimabad</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Visit Altit and Baltit Forts</li>
+      <li>Explore local bazaar and cafes</li>
+      <li>Viewpoint visit for sunset over Rakaposhi</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 9:</strong>
+    <h2 className="text-lg font-bold">Drive to Chilas</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Return journey via Karakoram Highway</li>
+      <li>Stopovers for photography and meals</li>
+      <li>Overnight in Chilas</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Day 10:</strong>
+    <h2 className="text-lg font-bold">Drive back to Islamabad</h2>
+    <ul className="list-disc list-inside ml-4 space-y-1">
+      <li>Arrival and transfer to hotel</li>
+      <li>Evening free for shopping or city tour</li>
+      <li>End of tour</li>
+    </ul>
+  </li>
+</ul>
+
  
        <div className="border-t pt-6 text-sm text-gray-700">
          <p><strong>PAKISTANI MOUNTAIN TOURS (PVT) LTD</strong></p>

@@ -2,9 +2,9 @@ import React from "react";
 import PlaceCard from "./PlaceCard"; // Reuse same card
 
 // Import images for trekking tours
-import Img1 from "../../assets/hunzavalley.jpg";
-import Img2 from "../../assets/hunzavalley.jpg";
-import Img3 from "../../assets/hunzavalley.jpg";
+import Img1 from "../../assets/K2-2nd-Highest-Mountain-Pakistan.webp";
+import Img2 from "../../assets/rush peak.jpeg";
+import Img3 from "../../assets/rakaposhi.jpeg";
 
 
 const TrekkingData = [
@@ -18,10 +18,10 @@ const TrekkingData = [
   },
   {
     img: Img2,
-    title: "Fairy Meadows Trek",
-    location: "Astore",
-    description: "Scenic trek towards Nanga Parbat base camp.",
-    link: "/trekkingDetail/fairy-meadows"
+    title: "Rush Peak Trek",
+    location: "Nagar Valley",
+    description: "One of the most scenic moderate treks in pakistan",
+    link: "/trekkingDetail/Rush-peak-Trek"
 
   },
   {
@@ -31,6 +31,7 @@ const TrekkingData = [
     description: "Adventure through green meadows and glaciers.",
     link: "/trekkingDetail/rakaposhi-base-camp"
   },
+
 
 ];
 

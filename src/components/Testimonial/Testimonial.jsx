@@ -1,8 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { FaStar } from "react-icons/fa";
-import userimg from "../../assets/user.jpeg";
+import userimg from "../../assets/autumn/doctor_client.jpg";
 import userimg1 from "../../assets/andrew.jpg";
+import userimg2 from "../../assets/client5.jpg";
 import googleLogo from "../../assets/google.png"; // make sure this exists in your assets folder
 
 const testimonialData = [
@@ -15,16 +16,16 @@ const testimonialData = [
   },
   {
     id: 2,
-    name: "John Doe",
-    date: "2 Jun 2024",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio.",
-    img: userimg,
+    name: "Thippawan Samran",
+    date: "14 october 2024",
+    text: "I recently went on a tour with Pakistani Mountain Tours – and it was an incredible experience. They took very good care of us throughout the journey. The guide was friendly, knowledgeable, and spoke multiple languages, which made it easy to connect and explore deeper. You can even contact the guide to ask about the best places to visit in Pakistan. The country is truly beautiful, full of awe-inspiring landscapes and warm, welcoming people. I’ll never forget this amazing experience – highly recommended!",
+    img: userimg2,
   },
   {
     id: 3,
     name: "Smith",
     date: "2 Jun 2024",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio.",
+    text: "Our trip with Pakistani Mountain Tours was nothing short of amazing. From the moment we arrived, everything was well-organized. The guide was kind and helpful, making sure we were comfortable and informed throughout. He shared stories about each place and showed us hidden gems we wouldn’t have discovered on our own. You can reach out to him anytime for advice on where to go in Pakistan. The hospitality, the mountains, and the people all left a lasting impression. I’m so glad we chose this tour!",
     img: userimg,
   },
 ];
