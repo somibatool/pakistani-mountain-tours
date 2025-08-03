@@ -3,7 +3,7 @@ import PlaceCard from "./PlaceCard";
 
 // Import images for bike tours (replace with real images later)
 import Img1 from "../../assets/bike.jpg";
-import Img2 from "../../assets/bikeTour/9.JPEG";
+import Img2 from "../../assets/bikeTour/9.jpeg";
 import Img3 from "../../assets/bikeTour/11.jpg";
 
 const BikeTourData = [

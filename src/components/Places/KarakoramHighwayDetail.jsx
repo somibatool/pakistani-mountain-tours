@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Img1 from '../../assets/astor/6.jpg';
-import Img2 from '../../assets/bikeTour/1.JPEG';
-import Img3 from '../../assets/bikeTour/2.JPEG';
-import Img4 from '../../assets/bikeTour/3.JPEG';
-import Img5 from '../../assets/bikeTour/4.JPEG';
+import Img2 from '../../assets/bikeTour/1.jpeg';
+import Img3 from '../../assets/bikeTour/2.jpeg';
+import Img4 from '../../assets/bikeTour/3.jpeg';
+import Img5 from '../../assets/bikeTour/4.jpeg';
 import Img6 from '../../assets/autumn/river.jpg';
 import Img7 from '../../assets/bikeTour/22.jpg';
 import Img8 from '../../assets/bikeTour/21.jpg';
