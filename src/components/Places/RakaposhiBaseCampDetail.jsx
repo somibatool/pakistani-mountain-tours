@@ -1,13 +1,15 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import Img1 from '../../assets/autumn/autumn_12.jpg';
-import Img2 from '../../assets/autumn/autumn7.jpg';
-import Img3 from '../../assets/autumn/autumn43.jpg';
-import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
-import Img5 from '../../assets/autumn/tress.jpg';
-import Img6 from '../../assets/autumn/river.jpg';
-import Img7 from '../../assets/autumn/river.jpg';
-import Img8 from '../../assets/autumn/river.jpg';
+import Img1 from '../../assets/rakaposhi-trk/1.jpg';
+import Img2 from '../../assets/rakaposhi-trk/2.jpg';
+import Img3 from '../../assets/rakaposhi-trk/3.jpg';
+import Img4 from '../../assets/rakaposhi-trk/4.jpg';
+import Img5 from '../../assets/rakaposhi-trk/5.jpg';
+import Img6 from '../../assets/rakaposhi-trk/6.jpg';
+import Img7 from '../../assets/rakaposhi-trk/7.jpg';
+import Img8 from '../../assets/rakaposhi-trk/8.jpg';
+import StayConnected from "../../pages/StayConnected";
+
 
 const RakaposhiBaseCampDetail = () => {
     const { title } = useParams();
@@ -197,6 +199,7 @@ const RakaposhiBaseCampDetail = () => {
          <p>Email: pakistanimountaintour@gmail.com</p>
          <p>Phone: +66 956071467</p>
        </div>
+            < StayConnected />
      </div>
    
    );

@@ -1,22 +1,8 @@
-// import React from "react";
-// import BlogsComp from "../components/Blogs/BlogsComp";
-// import Location from "../components/Location/Location";
 
-// const About = () => {
-//   return (
-//     <>
-//      
-//       <Location />
-//       <BlogsComp />
-//     </>
-//   );
-// };
-
-// export default About;
 import React from "react";
 import Team1 from '../assets/team pic/team 3.jpg';
 
-import TeamImage from "../assets/autumn/client1.jpg";         // Replace with actual CEO image
+import TeamImage from "../assets/adventureFairymedows/11.jpg";         // Replace with actual CEO image
 import CoFounderImage from "../assets/autumn/client1.jpg"; // Replace with actual Co-Founder image
 
 const AboutUs = () => {

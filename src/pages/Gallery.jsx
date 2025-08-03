@@ -15,16 +15,17 @@ const tabs = [
   "Gallery 2025",
   "North Pakistan",
   "South Pakistan",
-  "Kalash Festivals",
+  "Festivals",
   "Afghanistan",
 ];
 
-// All images
+
+
 const allImages = {
-  "Gallery 2025": [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img1, Img2, Img3, Img4],
+   "Gallery 2025": [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img1, Img2, Img3, Img4],
   "North Pakistan": [Img5, Img6, Img7, Img8, Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8],
   "South Pakistan": [Img1, Img5, Img2, Img6, Img3, Img7, Img4, Img8, Img1, Img2, Img3, Img5],
-  "Kalash Festivals": [Img3, Img7, Img4, Img8, Img1, Img5, Img2, Img6, Img3, Img4, Img7, Img8],
+  "Festivals": [Img3, Img7, Img4, Img8, Img1, Img5, Img2, Img6, Img3, Img4, Img7, Img8],
   "Afghanistan": [Img1, Img2, Img6, Img7, Img3, Img5, Img4, Img8, Img1, Img5, Img2, Img3],
 };
 

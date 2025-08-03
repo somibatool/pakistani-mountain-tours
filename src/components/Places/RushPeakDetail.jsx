@@ -1,13 +1,18 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import Img1 from '../../assets/autumn/autumn_12.jpg';
-import Img2 from '../../assets/autumn/autumn7.jpg';
-import Img3 from '../../assets/autumn/autumn43.jpg';
-import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
-import Img5 from '../../assets/autumn/tress.jpg';
-import Img6 from '../../assets/autumn/river.jpg';
-import Img7 from '../../assets/autumn/river.jpg';
-import Img8 from '../../assets/autumn/river.jpg';
+import Img1 from '../../assets/Rushpeak/1.jpg';
+import Img2 from '../../assets/Rushpeak/2.jpg';
+import Img3 from '../../assets/Rushpeak/3.jpg';
+import Img4 from '../../assets/Rushpeak/4.jpg';
+import Img5 from '../../assets/Rushpeak/5.jpg';
+import Img6 from '../../assets/Rushpeak/6.jpg';
+import Img7 from '../../assets/Rushpeak/7.jpg';
+import Img8 from '../../assets/Rushpeak/8.jpg';
+import Img9 from '../../assets/Rushpeak/9.jpg';
+import Img10 from '../../assets/Rushpeak/10.jpg';
+import Img11 from '../../assets/Rushpeak/11.jpg';
+import Img12 from '../../assets/Rushpeak/12.jpg';
+import StayConnected from "../../pages/StayConnected";
 
 const RushPeakDetail = () => {
     const { title } = useParams();
@@ -41,6 +46,10 @@ const RushPeakDetail = () => {
          <img src={Img6} alt="Tour 6" className="w-full h-48 object-cover rounded-lg" />
          <img src={Img7} alt="Tour 7" className="w-full h-48 object-cover rounded-lg" />
          <img src={Img8} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+         <img src={Img9} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+         <img src={Img10} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+         <img src={Img11} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+         <img src={Img12} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
        </div>
 
        <table className="w-full border border-gray-300 text-sm mb-10">
@@ -178,6 +187,8 @@ const RushPeakDetail = () => {
          <p>Email: pakistanimountaintour@gmail.com</p>
          <p>Phone: +66 956071467</p>
        </div>
+     
+     <StayConnected />
      </div>
    );
 };

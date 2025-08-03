@@ -12,6 +12,8 @@ import Img8 from '../../assets/autumn/river.jpg';
 const Autumn = () => {
   const { title } = useParams();
 
+  // This is Spring/Autumn Tour – Gilgit-Baltistan
+
   return (
      <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-6">
       <h1 className="text-4xl font-bold text-center text-primary mb-6">

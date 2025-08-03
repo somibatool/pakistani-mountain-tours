@@ -1,18 +1,17 @@
 import { useEffect, useState } from 'react';
-import SkarduImage from '../../assets/skarduheart.jpg';
-import HunzaImage from '../../assets/hunzavalley.jpg';
-import FairyMeadowsImage from '../../assets/hunzasuspension.jpg';
+import SkarduImage from '../../assets/adventure deosii/5.jpg';
+import HunzaImage from '../../assets/adventureFairymedows/18.jpg';
+import FairyMeadowsImage from '../../assets/rakaposhi-trk/8.jpg';
 import BikeImage from '../../assets/bike.jpg';
-import AiImage from '../../assets/Ai.jpg';
-import WaterfallImage from '../../assets/waterfall.jpg';
+
+import WaterfallImage from '../../assets/k2-trk/9.jpg';
 
 const images = [
-  { src: SkarduImage, title: 'Explore Skardu Valley', description: 'Discover the hidden beauty of Skardu, its lakes, and snow-covered mountains.' },
-  { src: HunzaImage, title: 'Explore Hunza Valley', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
-  { src: FairyMeadowsImage, title: 'Explore Hunza Suspension Bridge', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
+  { src: SkarduImage, title: 'Explore Deosai Plains', description: 'Deosai National Park – known as the "Land of Giants"' },
+  { src: HunzaImage, title: 'Explore Fairy Medows', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
+  { src: FairyMeadowsImage, title: 'Explore Rakaposhi Nagar ', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
   { src: BikeImage, title: 'Explore Gizher Valley', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' },
-  { src: AiImage, title: 'Explore Fairy Meadows', description: 'Witness amazing landscapes and serene beauty all around.' },
-  { src: WaterfallImage, title: 'Explore Nature Waterfall', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
+  { src: WaterfallImage, title: 'Explore Mountains Glaciers', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
 ];
 
 const HeroSlider = () => {
@@ -36,7 +35,7 @@ const HeroSlider = () => {
         className="w-full h-full object-cover"
       />
 
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-4 text-center px-4">
+      <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center space-y-4 text-center px-4">
         <h1 className="text-white text-3xl md:text-5xl font-bold mt-10">
           {currentImage.title}
         </h1>

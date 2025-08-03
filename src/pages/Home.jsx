@@ -12,6 +12,7 @@ import OrderPopup from "../components/OrderPopup/OrderPopup";
 import TrekkingTours from "../components/Places/TrekkingTours";
 import BikeTours from "../components/Places/BikeTours";
 import CompanyIntro from "../components/CompanyIntro";
+import Adventure from "../components/Places/Adventure";
 // import TrekkingTours from './components/Places/TrekkingTours';
 import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
 import StayConnected from "./StayConnected";
@@ -33,6 +34,7 @@ const Home = () => {
         <div className="my-20">
           {/* <TrekkingTours /> */}
             <TrekkingTours />
+            <Adventure />
             <BikeTours />
              <CompanyIntro />
           <CustomerCounter />

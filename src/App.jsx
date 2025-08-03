@@ -20,6 +20,10 @@ import K2BaseCampDetail from "./components/Places/K2BaseCampDetail";
 import RushPeakDetail from "./components/Places/RushPeakDetail";
 import RakaposhiBaseCampDetail from "./components/Places/RakaposhiBaseCampDetail";
 import BikeTours from "./components/Places/BikeTours";
+import Adventure from "./components/Places/Adventure";
+import DeosaiDetail from "./components/Places/DeosaiDetail";
+import AstoreAdventuredetail from "./components/Places/AstoreAdventuredetail";
+import Fairyadventure from "./components/Places/fairyadventure";
 import BikeDetailPage from "./components/Places/BikeDetailPage";
 import KarakoramHighwayDetail from "./components/Places/KarakoramHighwayDetail";
 import KhunjerabPassDetail from "./components/Places/KhunjerabPassDetail";
@@ -50,16 +54,21 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="gallery" element={<Gallery />} />
+          {/* <Route path="gallery" element={<Gallery />} /> */}
           <Route path="blogs/:id" element={<BlogsDetails />} />
           <Route path="best-places" element={<PlacesRoute />} />
           <Route path="/TrekkingTours" element={<TrekkingTours />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/bike-tours" element={<BikeTours />} />
+          <Route path="/adventure-tour" element={<Adventure />} />
           <Route path="place-detail/:title" element={<PlaceDetail />} />
           <Route
             path="/placeDetailHunza/:title"
             element={<PlaceDetailHunza />}
           />
+            <Route path="/adventureDetail/astore" element={<AstoreAdventuredetail />} />
+            <Route path="/adventureDetail/fairy-meadows" element={<Fairyadventure />} />
+           <Route path="/adventureDetail/deosai" element={<DeosaiDetail />} />
           <Route path="/fairyMedowsDetail/:title" element={<FairyMedows />} />
           <Route path="/autumnDetail/:title" element={<Autumn />} />
           <Route path="/lakeDetail/:title" element={<Lake />} />
@@ -76,14 +85,14 @@ const App = () => {
             path="/trekkingDetail/rakaposhi-base-camp"
             element={<RakaposhiBaseCampDetail />}
           />
-          <Route path="/bikeDetail/:title" element={<BikeDetailPage />} />
+          <Route path="/bikeDetail/Skardu-Tour" element={<BikeDetailPage />} />
 
           <Route
-            path="/bikeDetail/:title"
+            path="/bikeDetail/karakoram-Highway"
             element={<KarakoramHighwayDetail />}
           />
           <Route
-            path="/bikeDetail/title"
+            path="/bikeDetail/khunjerab-Pass"
             element={<KhunjerabPassDetail />}
           />
 

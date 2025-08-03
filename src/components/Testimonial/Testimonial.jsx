@@ -23,8 +23,8 @@ const testimonialData = [
   },
   {
     id: 3,
-    name: "Smith",
-    date: "2 Jun 2024",
+    name: "Tienchai Sanguanprasatporn",
+    date: "5 november 2024",
     text: "Our trip with Pakistani Mountain Tours was nothing short of amazing. From the moment we arrived, everything was well-organized. The guide was kind and helpful, making sure we were comfortable and informed throughout. He shared stories about each place and showed us hidden gems we wouldn’t have discovered on our own. You can reach out to him anytime for advice on where to go in Pakistan. The hospitality, the mountains, and the people all left a lasting impression. I’m so glad we chose this tour!",
     img: userimg,
   },
@@ -92,16 +92,19 @@ const Testimonial = () => {
                       className="h-12 w-12 rounded-full object-cover"
                     />
                     <div className="flex flex-col">
-                      <span className="font-semibold">{name}</span>
-                      <div className="flex items-center gap-2 text-sm text-gray-500">
-                        <span>{date}</span>
-                        <div className="flex text-yellow-400">
-                          {[...Array(5)].map((_, i) => (
-                            <FaStar key={i} />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
+  <span className="font-semibold">{name}</span>
+  
+  <div className="text-sm text-gray-500 flex flex-col">
+    <span>{date}</span>
+
+    <div className="flex text-yellow-400 mt-1">
+      {[...Array(5)].map((_, i) => (
+        <FaStar key={i} />
+      ))}
+    </div>
+  </div>
+</div>
+
                   </div>
                   {/* Testimonial Text */}
                   <p className="text-gray-600 text-sm">{text}</p>

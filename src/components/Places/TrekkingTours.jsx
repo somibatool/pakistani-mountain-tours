@@ -3,8 +3,8 @@ import PlaceCard from "./PlaceCard"; // Reuse same card
 
 // Import images for trekking tours
 import Img1 from "../../assets/K2-2nd-Highest-Mountain-Pakistan.webp";
-import Img2 from "../../assets/rush peak.jpeg";
-import Img3 from "../../assets/rakaposhi.jpeg";
+import Img2 from "../../assets/Rushpeak/6.jpg";
+import Img3 from "../../assets/rakaposhi-trk/4.jpg";
 
 
 const TrekkingData = [
