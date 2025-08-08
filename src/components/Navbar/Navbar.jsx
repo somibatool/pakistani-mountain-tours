@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
   FaTiktok,
 } from "react-icons/fa6"
+  import { FaClock, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 export const NavbarLinks = [
   {
@@ -60,54 +61,65 @@ const Navbar = ({ handleOrderPopup }) => {
       <nav className="fixed top-0 right-0 w-full z-50 bg-white backdrop-blur-sm text-black shadow-md">
 
 
-<div className="bg-gradient-to-r from-primary to-secondary text-white ">
+<div className="bg-gradient-to-r from-primary to-secondary text-white py-2 ">
   <div className="container py-[2px] sm:block hidden">
     <div className="flex items-center justify-between">
       {/* Left - Contact Info */}
-      <div className="flex items-center gap-4">
-        <p className="text-sm">Connect Now</p>
-        
-      </div>
+   
+
+<div className="flex items-center gap-6 text-sm text-white">
+  <div className="flex items-center gap-2">
+    <FaClock className="text-white" />
+    <p>8:00 TO 7:00</p>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <FaPhoneAlt className="text-white" />
+    <p>66956071567</p>
+  </div>
+
+  <div className="flex items-center gap-2">
+    <FaMapMarkerAlt className="text-white" />
+    <p>Pakistan, Thailand</p>
+  </div>
+</div>
+
 
       {/* Right - Social Icons */}
-     <div className="flex items-center gap-4 text-white text-lg">
+ <div className="flex items-center gap-6 text-white text-lg">
   <a
     href="https://www.facebook.com/share/1F2CTNzvM4/?mibextid=wwXIfr"
     target="_blank"
     rel="noopener noreferrer"
-    className="  border-white hover:text-blue-300 hover:bg-white transition-all duration-300"
+    className="flex items-center gap-2 hover:text-blue-900 transition-all duration-300"
     aria-label="Facebook"
   >
-    <FaFacebookF />
+    <FaFacebookF /> <span className="text-sm">Facebook</span>
   </a>
+
   <a
     href="https://www.instagram.com/pakistanimountaintours?igsh=Y3BveHJlaWowMDF4&utm_source=qr"
     target="_blank"
     rel="noopener noreferrer"
-    className="  border-white hover:text-pink-300 hover:bg-white transition-all duration-300"
+    className="flex items-center gap-2 hover:text-pink-700 transition-all duration-300"
     aria-label="Instagram"
   >
-    <FaInstagram />
+    <FaInstagram /> <span className="text-sm">Instagram</span>
   </a>
-  <a
-   href="https://wa.me/+66956071567"
-    target="_blank"
-    rel="noopener noreferrer"
-    className=" border-white hover:text-green-300 hover:bg-white transition-all duration-300"
-    aria-label="WhatsApp"
-  >
-    <FaWhatsapp />
-  </a>
+
+
+
   <a
     href="https://www.tiktok.com/@pmt.pk?_t=ZS-8yVccemmZZ2&_r=1"
     target="_blank"
     rel="noopener noreferrer"
-    className="  border-white hover:text-gray-300 hover:bg-white transition-all duration-300"
+    className="flex items-center gap-2 hover:text-black transition-all duration-300"
     aria-label="TikTok"
   >
-    <FaTiktok />
+    <FaTiktok /> <span className="text-sm">TikTok</span>
   </a>
 </div>
+
 
     </div>
   </div>

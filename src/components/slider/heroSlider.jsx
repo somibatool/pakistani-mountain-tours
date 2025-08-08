@@ -4,14 +4,13 @@ import HunzaImage from '../../assets/adventureFairymedows/18.jpg';
 import FairyMeadowsImage from '../../assets/rakaposhi-trk/8.jpg';
 import BikeImage from '../../assets/bike.jpg';
 
-import WaterfallImage from '../../assets/k2-trk/9.jpg';
+
 
 const images = [
   { src: SkarduImage, title: 'Explore Deosai Plains', description: 'Deosai National Park – known as the "Land of Giants"' },
   { src: HunzaImage, title: 'Explore Fairy Medows', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
   { src: FairyMeadowsImage, title: 'Explore Rakaposhi Nagar ', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
-  { src: BikeImage, title: 'Explore Gizher Valley', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' },
-  { src: WaterfallImage, title: 'Explore Mountains Glaciers', description: 'Relax beside waterfalls and breathe the freshest air of the north.' },
+  { src: BikeImage, title: 'Explore Gizher Valley', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' }
 ];
 
 const HeroSlider = () => {

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Location from "../components/Location/Location"
+import StayConnected from "./StayConnected";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -194,6 +195,7 @@ const Contact = () => {
      
       </div>
        <  Location />
+       < StayConnected />
     </>
   );
 };

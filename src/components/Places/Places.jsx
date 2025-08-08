@@ -28,7 +28,7 @@ const PlacesData = [
   {
     img: Img3,
     title: "Gilgit Balistan Tour",
-    location: "Astore",
+    location: "Fairy Medows",
     description: "Gilgit Baltistan Pakistan – Land of Lakes and Landscapes Vistas...",
     link: "/fairyMedowsDetail/Gilgit Balistan Tour"
   },
@@ -37,7 +37,7 @@ const PlacesData = [
    
       title: "Spring/Autumn Tour – Gilgit-Baltistan",
       // title: "Autumn",
-    location: "Gilgit KKH",
+    location: "Gilgit KKH Autumn",
     description: "Cost: Ask (depends on the number of people) Included: One...",
    link: "/autumnDetail/Spring-autumn-tour"
 
@@ -46,7 +46,7 @@ const PlacesData = [
     img: Img5,
      title: "South Pakistan’s Cultural Heritage",
     // title: "Lake",
-    location: "Skardu",
+    location: "Skardu lake",
     description: "Cost: Ask (depends on the number of people) Included: All...",
     link: "/lakeDetail/South Pakistan’s Cultural Heritage"
   },

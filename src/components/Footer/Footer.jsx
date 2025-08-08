@@ -6,6 +6,8 @@ import {
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+   FaGlobe,
+  FaWhatsapp,
 } from "react-icons/fa";
 import NatureVid from "../../assets/video/footer.mp4";
 import { Link } from "react-router-dom";
@@ -58,14 +60,19 @@ const Footer = () => {
 
               </p>
               <br />
-              <div className="flex items-center gap-3 ">
-                <FaLocationArrow />
-                <p>Pakistani Mountain Tour</p>
-              </div>
-              <div className="flex items-center gap-3 mt-3">
-                <FaMobileAlt />
-                <p>+66956071567</p>
-              </div>
+          <div className="flex items-center gap-3">
+   <FaGlobe />
+  <p>
+    <a href="https://pakistani-mountain-tours.vercel.app/"   target="_blank" >Pakistani Mountain Tours</a></p>
+</div>
+
+<div className="flex items-center gap-3 mt-3">
+  <FaWhatsapp />
+  <p>+66956071567</p>
+</div>
+
+
+
               {/* social handles */}
               <div>
                 {/* <div className="flex items-center gap-3 mt-6">

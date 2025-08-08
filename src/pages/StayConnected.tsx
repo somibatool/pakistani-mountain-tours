@@ -47,13 +47,22 @@ const StayConnected = () => {
               link: "https://www.tiktok.com/@pmt.pk?_t=ZS-8yVccemmZZ2&_r=1",
               color: "bg-black",
             },
-            {
-              icon: <FaWhatsapp />,
-        
+          {
+  icon: <FaWhatsapp />,
+  label: (
+    <a
+      href="https://wa.me/66956071567"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-primary hover:bg-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
+    >
+      Contact Us On WhatsApp
+    </a>
+  ),
+  link: "https://wa.me/66956071567",
+  color: "bg-green-500",
+}
 
-              link: "https://wa.me/+66956071567",
-              color: "bg-green-500",
-            },
           ].map((social, index) => (
             <a
               key={index}

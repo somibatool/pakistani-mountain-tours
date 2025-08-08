@@ -1,9 +1,10 @@
 
 import React from "react";
 import Team1 from '../assets/team pic/team 3.jpg';
-
 import TeamImage from "../assets/adventureFairymedows/11.jpg";         // Replace with actual CEO image
 import CoFounderImage from "../assets/autumn/client1.jpg"; // Replace with actual Co-Founder image
+import Testimonial from "../components/Testimonial/Testimonial"
+import StayConnected from "./StayConnected";
 
 const AboutUs = () => {
   return (
@@ -114,6 +115,8 @@ const AboutUs = () => {
       
         </div>
       </div>
+      < Testimonial />
+      <StayConnected />
 
     </div>
   );

@@ -9,6 +9,8 @@ import Img6 from '../../assets/autumn/river.jpg';
 import Img7 from '../../assets/autumn/river.jpg';
 import Img8 from '../../assets/autumn/river.jpg';
 
+// Gilgit Balistan Tour - Hunza & Skardu Autumn Tour
+// Witness the Golden Fall Season of Northern Pakistan
 const Autumn = () => {
   const { title } = useParams();
 
@@ -51,7 +53,7 @@ const Autumn = () => {
         <tbody>
           <tr className="border border-gray-300">
             <td className="p-3 font-semibold border border-gray-300">Cost:</td>
-            <td className="p-3 border border-gray-300">28,000 PKR per person</td>
+            <td className="p-3 border border-gray-300">ask </td>
           </tr>
           <tr className="border border-gray-300 align-top">
             <td className="p-3 font-semibold border border-gray-300">Included:</td>
