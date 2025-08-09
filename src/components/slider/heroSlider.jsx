@@ -1,46 +1,84 @@
-import { useEffect, useState } from 'react';
-import SkarduImage from '../../assets/adventure deosii/5.jpg';
-import HunzaImage from '../../assets/adventureFairymedows/18.jpg';
-import FairyMeadowsImage from '../../assets/rakaposhi-trk/8.jpg';
-import BikeImage from '../../assets/bike.jpg';
-
-
+import { useEffect, useState } from "react";
+import SkarduImage from "../../assets/adventure deosii/2.jpg";
+import HunzaImage from "../../assets/adventureFairymedows/2.jpg";
+import FairyMeadowsImage from "../../assets/astor/5.jpg";
+import BikeImage from "../../assets/bike.jpg";
 
 const images = [
-  { src: SkarduImage, title: 'Explore Deosai Plains', description: 'Deosai National Park – known as the "Land of Giants"' },
-  { src: HunzaImage, title: 'Explore Fairy Medows', description: 'A paradise on earth, with breathtaking valleys and rich culture.' },
-  { src: FairyMeadowsImage, title: 'Explore Rakaposhi Nagar ', description: 'Experience the mesmerizing meadows and stunning views of Nanga Parbat.' },
-  { src: BikeImage, title: 'Explore Gizher Valley', description: 'Ride through nature’s wonderland and enjoy peaceful sceneries.' }
+  {
+    src: SkarduImage,
+    title: "Explore Deosai Plains",
+    description: 'Deosai National Park – known as the "Land of Giants"',
+  },
+  {
+    src: HunzaImage,
+    title: "Explore Fairy Medows",
+    description:
+      "A paradise on earth, with breathtaking valleys and rich culture.",
+  },
+  {
+    src: FairyMeadowsImage,
+    title: "Explore Rakaposhi Nagar",
+    description:
+      "Experience the mesmerizing meadows and stunning views of Nanga Parbat.",
+  },
+  {
+    src: BikeImage,
+    title: "Explore Gizher Valley",
+    description: "Ride through nature’s wonderland and enjoy peaceful sceneries.",
+  },
 ];
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [zoomIn, setZoomIn] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000);
+    const zoomTimer = setInterval(() => {
+      setZoomIn((prev) => {
+        if (prev === true) {
+          // halfway: start zooming out
+          return false;
+        } else {
+          // after zooming out, switch image & zoom in again
+          setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+          return true;
+        }
+      });
+    }, 3000); // 3 seconds for each phase (zoom in or out)
 
-    return () => clearInterval(interval);
+    return () => clearInterval(zoomTimer);
   }, []);
-
-  const currentImage = images[currentIndex];
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <img
-        src={currentImage.src}
-        alt={currentImage.title}
-        className="w-full h-full object-cover"
-      />
+      {images.map((image, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 transition-all duration-[3000ms] ease-in-out ${
+            index === currentIndex
+              ? zoomIn
+                ? "opacity-100 scale-110" // zoom in
+                : "opacity-100 scale-100" // zoom out
+              : "opacity-0"
+          }`}
+        >
+          <img
+            src={image.src}
+            alt={image.title}
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+      ))}
 
-      <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center space-y-4 text-center px-4">
-        <h1 className="text-white text-3xl md:text-5xl font-bold mt-10">
-          {currentImage.title}
+      {/* Overlay Content */}
+      <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-center px-4">
+        <h1 className="text-white text-3xl md:text-5xl font-bold mt-10 transition-opacity duration-500">
+          {images[currentIndex].title}
         </h1>
 
-        <p className="text-white text-sm md:text-lg max-w-xl mt-4">
-          {currentImage.description}
+        <p className="text-white text-sm md:text-lg max-w-xl mt-4 transition-opacity duration-500">
+          {images[currentIndex].description}
         </p>
 
         <a
@@ -49,7 +87,7 @@ const HeroSlider = () => {
           rel="noopener noreferrer"
           className="bg-primary hover:bg-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
         >
-          Contact Us On  WhatsApp
+          Contact Us On WhatsApp
         </a>
       </div>
     </div>
@@ -57,4 +95,3 @@ const HeroSlider = () => {
 };
 
 export default HeroSlider;
-  

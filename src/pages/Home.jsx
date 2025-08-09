@@ -16,6 +16,7 @@ import Adventure from "../components/Places/Adventure";
 // import TrekkingTours from './components/Places/TrekkingTours';
 import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
 import StayConnected from "./StayConnected";
+
 import HeroSlider from "../components/slider/heroSlider";
 
 const Home = () => {
@@ -37,6 +38,7 @@ const Home = () => {
             <Adventure />
             <BikeTours />
              <CompanyIntro />
+       
           <CustomerCounter />
         </div>
         {/* <BlogsComp /> */}
