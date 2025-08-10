@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import SkarduImage from "../../assets/adventure deosii/2.jpg";
-import HunzaImage from "../../assets/adventureFairymedows/2.jpg";
-import FairyMeadowsImage from "../../assets/astor/5.jpg";
-import BikeImage from "../../assets/bike.jpg";
+import SkarduImage from "../../assets/adventure deosii/hero1.png";
+import HunzaImage from "../../assets/adventureFairymedows/fairymedowshero.png";
+import FairyMeadowsImage from "../../assets/rakaposhi-trk/rakaposhihero.png";
+import BikeImage from "../../assets/adventure deosii/herobike.png";
 
 const images = [
   {
@@ -20,7 +20,7 @@ const images = [
     src: FairyMeadowsImage,
     title: "Explore Rakaposhi Nagar",
     description:
-      "Experience the mesmerizing meadows and stunning views of Nanga Parbat.",
+      "Experience the mesmerizing meadows and stunning views.",
   },
   {
     src: BikeImage,
@@ -72,7 +72,7 @@ const HeroSlider = () => {
       ))}
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-center px-4">
+      <div className="absolute inset-0 bg-black bg-opacity-20 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-white text-3xl md:text-5xl font-bold mt-10 transition-opacity duration-500">
           {images[currentIndex].title}
         </h1>
@@ -85,7 +85,7 @@ const HeroSlider = () => {
           href="https://wa.me/66956071567"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary hover:bg-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
+          className="bg-gradient-to-r from-primary to-secondary  text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
         >
           Contact Us On WhatsApp
         </a>

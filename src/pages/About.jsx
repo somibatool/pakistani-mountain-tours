@@ -1,8 +1,8 @@
 
 import React from "react";
-import Team1 from '../assets/team pic/team 3.jpg';
-import TeamImage from "../assets/adventureFairymedows/11.jpg";         // Replace with actual CEO image
-import CoFounderImage from "../assets/autumn/client1.jpg"; // Replace with actual Co-Founder image
+import Team1 from '../assets/team pic/aboutteam.png';
+import TeamImage from "../assets/adventureFairymedows/11.jpg";         
+import CoFounderImage from "../assets/autumn/client1.jpg"; 
 import Testimonial from "../components/Testimonial/Testimonial"
 import StayConnected from "./StayConnected";
 
@@ -13,7 +13,7 @@ const AboutUs = () => {
    <img 
   src={Team1} 
   alt="Team Image" 
-  className="w-full h-80 object-cover rounded-lg shadow-lg"
+  className="w-full h-90 object-fit rounded-lg shadow-lg"
 />
 
 
@@ -26,7 +26,7 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="text-lg leading-relaxed text-center max-w-4xl mx-auto">
-          <strong>PAKISTANI MOUNTAIN TOURS (PMT)</strong> is a registered Tourism Company since 2013, recognized under both the Department of Tourist Services (DTS) Islamabad (License No. 1703) and the Security and Exchange Commission of Pakistan (SECP). Our dedicated team of travel professionals is committed to offering you safe, authentic, and unforgettable travel experiences across Pakistan’s majestic landscapes. Whether you're seeking adventure, culture, or relaxation, our passionate team ensures your journey is smooth and memorable.
+          <strong>PAKISTANI MOUNTAIN TOURS (PMT)</strong> is a registered Tourism Company since 2018, recognized under both the Department of Tourist Services (DTS) Islamabad (License No. 1703) and the Security and Exchange Commission of Pakistan (SECP). Our dedicated team of travel professionals is committed to offering you safe, authentic, and unforgettable travel experiences across Pakistan’s majestic landscapes. Whether you're seeking adventure, culture, or relaxation, our passionate team ensures your journey is smooth and memorable.
         </p>
       </div>
 
@@ -56,16 +56,18 @@ const AboutUs = () => {
 
       {/* CO-FOUNDER SECTION */}
       <div className="py-12 px-4 md:px-20">
-        <h2 className="text-3xl font-bold mb-8 text-primary">Co-Founder</h2>
+        <h2 className="text-4xl font-bold mb-8 text-primary">Tour Guide</h2>
         <div className="flex flex-col md:flex-row items-center gap-10">
 
         
 
           {/* Co-Founder Description */}
           <div className="w-full md:w-2/3 text-lg leading-relaxed">
-            <p className="mb-4 font-semibold">[Co-Founder Name]</p>
+            <p className="mb-4 font-semibold">[Meet Measum Abbas – Your Mountain Adventure Guide ]</p>
             <p>
-              Our Co-Founder shares the same vision and dedication to promoting Pakistan’s unique landscapes and cultural heritage. Together, they have built a company that prioritizes customer satisfaction and quality service, ensuring every traveler experiences the true spirit of adventure.
+              Measum Abbas is a passionate young tour guide with fresh and unique ideas to make every journey unforgettable. Known for his friendly nature and deep knowledge of Pakistan’s breathtaking mountain regions, Measum knows how to turn a simple trip into a once-in-a-lifetime experience.
+Whether you’re exploring the valleys of Hunza, trekking through Fairy Meadows, or discovering hidden trails, Measum will ensure every moment is filled with excitement, comfort, and stories worth sharing.
+Connect with Measum today and let him lead you to the heart of Pakistan’s natural beauty.
             </p>
           </div>
             {/* Co-Founder Image */}

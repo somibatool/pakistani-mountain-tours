@@ -7,6 +7,9 @@ import {
   FaTiktok,
   FaWhatsapp,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 
 const StayConnected = () => {
   return (
@@ -31,16 +34,17 @@ const StayConnected = () => {
               link: "https://www.instagram.com/pakistanimountaintours?igsh=Y3BveHJlaWowMDF4&utm_source=qr",
               color: "bg-gradient-to-tr from-pink-500 to-yellow-500",
             },
-            {
-              icon: <FaTwitter />,
-              link: "https://www.twitter.com",
-              color: "bg-blue-400",
-            },
-            {
-              icon: <FaLinkedin />,
-              link: "https://www.linkedin.com",
-              color: "bg-blue-800",
-            },
+        {
+  icon: <FaXTwitter />,
+  link: "https://www.twitter.com",
+  color: "bg-black",
+},
+           {
+  icon: <MdEmail />,
+  link: "mailto:pakistanimountaintours@gmail.com",
+  color: "bg-red-500",
+},
+
           
             {
               icon: <FaTiktok />,

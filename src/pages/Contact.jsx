@@ -61,17 +61,15 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container pt-14">
+      <div className="container pt-14 mt-10">
         <div className="py-10">
           <h1 className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
             Contact Us
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolore
+          Ready for your next adventure?
+Get in touch today and explore Pakistan’s majestic mountains with us. From the snow-capped peaks of Hunza to the lush valleys of Swat, your next journey begins here.
+Reach out to us for bookings, inquiries, or personalized travel plans. 
           </p>
         </div>
       </div>
@@ -186,7 +184,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full px-4 py-2 bg-primary text-white font-medium rounded-lg shadow-md hover:bg-primary focus:ring focus:ring-primary focus:outline-none"
+              className="w-full px-4 py-2  bg-gradient-to-r from-primary to-secondary text-white font-medium rounded-lg shadow-md  focus:outline-none"
             >
               {isSubmitting ? "Submitting..." : "Submit Inquiry"}
             </button>

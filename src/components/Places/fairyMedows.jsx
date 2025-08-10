@@ -1,13 +1,13 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Img1 from '../../assets/autumn/autumn_12.jpg';
-import Img2 from '../../assets/autumn/autumn7.jpg';
-import Img3 from '../../assets/autumn/autumn43.jpg';
+import Img1 from '../../assets/adventureFairymedows/4.jpg';
+import Img2 from '../../assets/adventureFairymedows/5.jpg';
+import Img3 from '../../assets/adventureFairymedows/11.jpg';
 import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
 import Img5 from '../../assets/autumn/tress.jpg';
 import Img6 from '../../assets/autumn/river.jpg';
-import Img7 from '../../assets/autumn/river.jpg';
-import Img8 from '../../assets/autumn/river.jpg';
+import Img7 from '../../assets/team pic/team 6.jpg';
+import Img8 from '../../assets/astor/4.jpg';
 
 // Gilgit Balistan Tour - Hunza & Skardu Autumn Tour
 // Witness the Golden Fall Season of Northern Pakistan
@@ -15,7 +15,7 @@ const Autumn = () => {
   const { title } = useParams();
 
   return (
-     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-6">
+     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-20">
       <h1 className="text-4xl font-bold text-center text-primary mb-6">
         {title} - Hunza & Skardu Autumn Tour
       </h1>
@@ -38,7 +38,7 @@ const Autumn = () => {
         lakes, glaciers, and cultural hubs while soaking in the vibrant autumn colors.
       </p>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 h-full w-full">
         <img src={Img1} alt="Tour 1" className="w-full h-48 object-cover rounded-lg" />
         <img src={Img2} alt="Tour 2" className="w-full h-48 object-cover rounded-lg" />
         <img src={Img3} alt="Tour 3" className="w-full h-48 object-cover rounded-lg" />
@@ -53,7 +53,7 @@ const Autumn = () => {
         <tbody>
           <tr className="border border-gray-300">
             <td className="p-3 font-semibold border border-gray-300">Cost:</td>
-            <td className="p-3 border border-gray-300">ask </td>
+            <td className="p-3 border border-gray-300">Ask (depends on the number of people)</td>
           </tr>
           <tr className="border border-gray-300 align-top">
             <td className="p-3 font-semibold border border-gray-300">Included:</td>

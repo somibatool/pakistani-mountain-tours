@@ -113,7 +113,7 @@ const Navbar = ({ handleOrderPopup }) => {
     href="https://www.tiktok.com/@pmt.pk?_t=ZS-8yVccemmZZ2&_r=1"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-center gap-2 hover:text-white transition-all duration-300"
+    className="flex items-center gap-2 hover:text-black transition-all duration-300"
     aria-label="TikTok"
   >
     <FaTiktok /> <span className="text-sm">TikTok</span>
