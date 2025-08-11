@@ -1,5 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import HunzaTree from "../../assets/IMG_1334.jpg";
+import KarimabadOldHouse from "../../assets/boat.jpg";
+import River from "../../assets/hunzaganish.jpg";
+import Img1465 from "../../assets/karimabad_old_house.jpg";
+import Boat from "../../assets/spring/3.jpg";
+import HunzaSuspension from "../../assets/client5.jpg";
+import Img1335 from "../../assets/k2-trk/3.jpg";
+import FairyMedows from "../../assets/adventureFairymedows/2.jpg";
 
 const PlaceDetail = () => {
   const { title } = useParams();
@@ -60,48 +68,16 @@ const PlaceDetail = () => {
       </ul>
 
       {/* Image Gallery */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-        <img
-          src="/public/hunza_tree.jpg"
-          alt="Tour 1"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/public/karimabad_old_house.jpg"
-          alt="Tour 2"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/public/river.jpg"
-          alt="Tour 3"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/IMG_1465.jpg"
-          alt="Tour 4"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/public/boat.jpg"
-          alt="Tour 5"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/public/hunzasuspension.jpg"
-          alt="Tour 6"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/IMG_1335.jpg"
-          alt="Tour 7"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-        <img
-          src="/fairymedows.jpg"
-          alt="Tour 8"
-          className="w-full h-48 object-cover rounded-lg"
-        />
-      </div>
+     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 h-full">
+      <img src={HunzaTree} alt="Tour 1" className="w-full h-full object-cover rounded-lg" />
+      <img src={KarimabadOldHouse} alt="Tour 2" className="w-full h-full object-cover rounded-lg" />
+      <img src={River} alt="Tour 3" className="w-full h-full object-cover rounded-lg" />
+      <img src={Img1465} alt="Tour 4" className="w-full h-full object-cover rounded-lg" />
+      <img src={Boat} alt="Tour 5" className="w-full h-full object-cover rounded-lg" />
+      <img src={HunzaSuspension} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+      <img src={Img1335} alt="Tour 7" className="w-full h-full object-cover rounded-lg" />
+      <img src={FairyMedows} alt="Tour 8" className="w-full h-full object-cover rounded-lg" />
+    </div>
 
       {/* Trip Information Table Style */}
       <table className="w-full border border-gray-300 text-sm mb-10">

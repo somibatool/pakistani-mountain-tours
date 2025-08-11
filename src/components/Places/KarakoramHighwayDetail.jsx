@@ -49,7 +49,7 @@ const KarakoramHighwayDetail = () => {
          <tbody>
            <tr className="border border-gray-300">
              <td className="p-3 font-semibold border border-gray-300">Cost:</td>
-             <td className="p-3 border border-gray-300">28,000 PKR per person</td>
+             <td className="p-3 border border-gray-300">  Ask (depends on the number of people)</td>
            </tr>
            <tr className="border border-gray-300 align-top">
              <td className="p-3 font-semibold border border-gray-300">Included:</td>

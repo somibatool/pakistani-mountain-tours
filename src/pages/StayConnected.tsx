@@ -36,7 +36,7 @@ const StayConnected = () => {
             },
         {
   icon: <FaXTwitter />,
-  link: "https://www.twitter.com",
+  link: "https://x.com/rashidh72?s=11",
   color: "bg-black",
 },
            {

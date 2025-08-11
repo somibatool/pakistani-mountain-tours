@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import SkarduImage from "../../assets/adventure deosii/hero1.png";
+import SkarduImage from "../../assets/adventure deosii/slider1234.jpg";
 import HunzaImage from "../../assets/adventureFairymedows/fairymedowshero.png";
-import FairyMeadowsImage from "../../assets/rakaposhi-trk/rakaposhihero.png";
-import BikeImage from "../../assets/adventure deosii/herobike.png";
+import FairyMeadowsImage from "../../assets/adventureFairymedows/slider1.jpg";
+import BikeImage from "../../assets/adventure deosii/skarduheart.jpg";
 
 const images = [
   {
     src: SkarduImage,
-    title: "Explore Deosai Plains",
-    description: 'Deosai National Park – known as the "Land of Giants"',
+    title: "Explore South Pakistan",
+    description: 'South Pakistan – a region of vibrant culture, ancient heritage, and breathtaking landscapes from deserts to coastlines.',
   },
   {
     src: HunzaImage,
@@ -24,7 +24,7 @@ const images = [
   },
   {
     src: BikeImage,
-    title: "Explore Gizher Valley",
+    title: "Explore Skardu Valley",
     description: "Ride through nature’s wonderland and enjoy peaceful sceneries.",
   },
 ];
