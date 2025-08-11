@@ -3,9 +3,9 @@ import PlaceCard from "./PlaceCard";
 import Img1 from "../../assets/places/boat.jpg";
 import Img2 from "../../assets/places/tajmahal.jpg";
 import Img3 from "../../assets/places/water.jpg";
-import Img4 from "../../assets/places/place4.jpg";
-import Img5 from "../../assets/places/place5.jpg";
-import Img6 from "../../assets/places/place6.jpg";
+import Img4 from "../../assets/spring/26.jpg";
+import Img5 from "../../assets/south pakistan/1.jpg";
+import Img6 from "../../assets/culture/10.jpg";
 
 const PlacesData = [
   {

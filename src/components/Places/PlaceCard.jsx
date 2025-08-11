@@ -17,7 +17,7 @@ const PlaceCard = ({ img, title, location, description, link }) => {
 
       <div className="p-4">
         <Link to={link}>
-         <button className="w-full bg-gradient-to-r from-primary to-secondary text-white py-2 rounded-full flex items-center justify-center gap-2 hover:bg-black hover:text-white hover:scale-105 transition-all duration-300 ease-in-out">
+         <button className="w-full bg-gradient-to-br from-primary to-secondary text-white py-2 rounded-full flex items-center justify-center gap-2 hover:bg-black hover:text-white hover:scale-105 transition-all duration-300 ease-in-out">
   View
   <span className="text-lg">{'>'}</span>
 </button>

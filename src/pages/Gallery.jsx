@@ -22,6 +22,31 @@ import Img20 from "../assets/autumn/old_women_23.jpg";
 import Img21 from "../assets/autumn/truck1.jpg";
 import Img22 from "../assets/autumn/karimabad_old_house.jpg";
 import Img23 from "../assets/autumn/ganish_river.jpg";
+import Img24 from "../assets/south pakistan/1.jpg";
+import Img25 from "../assets/south pakistan/2.jpg";
+import Img26 from "../assets/south pakistan/3.jpg";
+import Img27 from "../assets/south pakistan/4.jpg";
+import Img28 from "../assets/south pakistan/5.jpg";
+import Img29 from "../assets/south pakistan/6.jpg";
+import Img30 from "../assets/south pakistan/7.jpg";
+import Img31 from "../assets/south pakistan/8.jpg";
+import Img32 from "../assets/south pakistan/9.jpg";
+import Img33 from "../assets/south pakistan/10.jpg";
+import Img34 from "../assets/south pakistan/16.jpg";
+import Img35 from "../assets/south pakistan/15.jpg";
+import Img36 from "../assets/culture/1.jpg";
+import Img37 from "../assets/culture/2.jpg";
+import Img38 from "../assets/culture/15.jpg";
+import Img39 from "../assets/culture/4.jpg";
+import Img40 from "../assets/culture/5.jpg";
+import Img41 from "../assets/culture/6.jpg";
+import Img42 from "../assets/culture/7.jpg";
+import Img43 from "../assets/culture/8.jpg";
+import Img44 from "../assets/culture/9.jpg";
+import Img45 from "../assets/culture/10.jpg";
+import Img46 from "../assets/culture/11.jpg";
+import Img47 from "../assets/culture/12.jpg";
+
 
 import Testimonial from "../components/Testimonial/Testimonial";
 import StayConnected from "./StayConnected";
@@ -40,8 +65,8 @@ const tabs = [
 const allImages = {
    "Gallery 2025": [Img1, Img2, Img3,  Img11, Img4, Img5, Img6, Img7, Img8, Img9, Img10,, Img4],
   "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23],
-  "South Pakistan": [Img1, Img5, Img2, Img6, Img3, Img7, Img4, Img8, Img1, Img2, Img3, Img5],
-  "Festivals": [Img3, Img7, Img4, Img8, Img1, Img5, Img2, Img6, Img3, Img4, Img7, Img8],
+  "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
+  "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],
   // "Afghanistan": [Img1, Img2, Img6, Img7, Img3, Img5, Img4, Img8, Img1, Img5, Img2, Img3],
 };
 

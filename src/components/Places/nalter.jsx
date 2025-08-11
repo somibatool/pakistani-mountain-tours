@@ -1,12 +1,23 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import Img1 from '../../assets/autumn/autumn_12.jpg';
-import Img2 from '../../assets/autumn/autumn7.jpg';
-import Img3 from '../../assets/autumn/autumn43.jpg';
-import Img4 from '../../assets/autumn/ali_abad_tawor.jpg';
-import Img5 from '../../assets/autumn/tress.jpg';
-import Img6 from '../../assets/autumn/river.jpg';
+import Img1 from '../../assets/culture/1.jpg';
+import Img2 from '../../assets/culture/2.jpg';
+import Img3 from '../../assets/culture/3.jpg';
+import Img4 from '../../assets/culture/4.jpg';
+import Img5 from '../../assets/culture/5.jpg';
+import Img6 from '../../assets/culture/6.jpg';
+import Img7 from '../../assets/culture/7.jpg';
+import Img8 from '../../assets/culture/8.jpg';
+import Img9 from '../../assets/culture/9.jpg';
+import Img10 from '../../assets/culture/10.jpg';
+import Img11 from '../../assets/culture/11.jpg';
+import Img12 from '../../assets/culture/12.jpg';
+// pakistani culture historical places
+
+
+
+
 
 const FairyMedows = () => {
   const { title } = useParams();
@@ -16,7 +27,7 @@ const FairyMedows = () => {
       
       {/* Main Heading */}
       <h1 className="text-4xl font-bold text-center text-primary mb-6">
-        {title} - Fairy Meadows Adventure Tour
+        {title} 
       </h1>
 
       {/* Subheading */}
@@ -34,19 +45,29 @@ const FairyMedows = () => {
       {/* Tour Description */}
       <h2 className="text-2xl font-semibold text-black mb-3">Tour Description</h2>
       <p className="text-gray-800 mb-8 leading-relaxed">
-        Experience the beauty of Fairy Meadows, Pakistan’s prime destination at the foot of Nanga Parbat, 
-        the 9th highest peak in the world. Enjoy lush green meadows, wooden cabins, and panoramic mountain views. 
-        This adventure tour includes scenic flights, cultural heritage visits, and breathtaking landscapes across Hunza, Skardu, and Fairy Meadows.
+
+  Discover the rich cultural heritage of Pakistan’s northern valleys, where traditions are as vibrant as the landscapes. 
+  In Hunza, experience the warm hospitality of the locals, ancient forts, and the unique blend of Burusho and Wakhi cultures. 
+  Journey into Chitral, home to the Kalash people with their colorful festivals, intricate handicrafts, and centuries-old customs. 
+  Along the way, explore mountain villages, taste traditional cuisines, and witness a way of life preserved in harmony with the majestic peaks.
+
+
       </p>
 
       {/* Image Gallery */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-        <img src={Img1} alt="Tour 1" className="w-full h-48 object-cover rounded-lg" />
-        <img src={Img2} alt="Tour 2" className="w-full h-48 object-cover rounded-lg" />
-        <img src={Img3} alt="Tour 3" className="w-full h-48 object-cover rounded-lg" />
-        <img src={Img4} alt="Tour 4" className="w-full h-48 object-cover rounded-lg" />
-        <img src={Img5} alt="Tour 5" className="w-full h-48 object-cover rounded-lg" />
-        <img src={Img6} alt="Tour 6" className="w-full h-48 object-cover rounded-lg" />
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-12  ">
+        <img src={Img1} alt="Tour 1" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img2} alt="Tour 2" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img3} alt="Tour 3" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img4} alt="Tour 4" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img5} alt="Tour 5" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img6} alt="Tour 6" className="w-full  h-full object-cover rounded-lg" />
+        <img src={Img7} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+        <img src={Img8} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+        <img src={Img9} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+        <img src={Img10} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+        <img src={Img11} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
+        <img src={Img12} alt="Tour 6" className="w-full h-full object-cover rounded-lg" />
       </div>
 
       {/* Trip Information */}
@@ -54,7 +75,7 @@ const FairyMedows = () => {
         <tbody>
           <tr className="border border-gray-300">
             <td className="p-3 font-semibold border border-gray-300">Cost:</td>
-            <td className="p-3 border border-gray-300">32,000 THB per person</td>
+            <td className="p-3 border border-gray-300">Ask (depend on tour plan)</td>
           </tr>
           <tr className="border border-gray-300 align-top">
             <td className="p-3 font-semibold border border-gray-300">Included:</td>
@@ -83,17 +104,96 @@ const FairyMedows = () => {
       </table>
 
       {/* Tour Schedule */}
-      <h2 className="text-2xl font-semibold text-black mb-4">Tour Schedule</h2>
-      <ul className="list-inside text-gray-800 leading-relaxed space-y-4 mb-10">
-        <li><strong>Day 1:</strong> Arrival at Islamabad. City exploration. Overnight stay.</li>
-        <li><strong>Day 2:</strong> Flight to Skardu. Explore Sadpara Lake and Kachura Lakes.</li>
-        <li><strong>Day 3:</strong> Drive to Hunza. Sightseeing en route including Rakaposhi viewpoint.</li>
-        <li><strong>Day 4:</strong> Visit Altit Fort, Attabad Lake, and Passu Glacier.</li>
-        <li><strong>Day 5:</strong> Travel to Fairy Meadows via Raikot Bridge and trek to meadows.</li>
-        <li><strong>Day 6:</strong> Hike to Beyal Camp and Nanga Parbat viewpoint.</li>
-        <li><strong>Day 7:</strong> Return to Naran/Besham. Overnight stay.</li>
-        <li><strong>Day 8:</strong> Final drive to Islamabad. Departure.</li>
-      </ul>
+    {/* Tour Schedule */}
+<h2 className="text-2xl font-semibold text-black mb-4">Tour Schedule - Exploring Pakistan’s Culture</h2>
+<div className="space-y-6 mb-10 text-gray-800 leading-relaxed">
+
+  {/* Day 1 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 1 – Arrival in Islamabad</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Warm welcome at Islamabad International Airport</li>
+      <li>Brief introduction to Pakistani culture and traditions</li>
+      <li>Visit Lok Virsa Museum for cultural exhibits</li>
+      <li>Overnight stay in Islamabad</li>
+    </ul>
+  </div>
+
+  {/* Day 2 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 2 – Islamabad to Chitral</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Scenic flight or drive to Chitral</li>
+      <li>Explore Chitral town & local handicraft markets</li>
+      <li>Evening tea with traditional Chitrali music</li>
+      <li>Overnight stay in Chitral</li>
+    </ul>
+  </div>
+
+  {/* Day 3 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 3 – Kalash Valley Experience</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Visit the unique Kalash tribes in Bumburet or Rumbur Valley</li>
+      <li>Learn about Kalash customs, festivals, and traditional dress</li>
+      <li>Try local Kalash cuisine</li>
+      <li>Return to Chitral for overnight stay</li>
+    </ul>
+  </div>
+
+  {/* Day 4 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 4 – Chitral to Gilgit</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Drive through Shandur Pass (world’s highest polo ground)</li>
+      <li>Stop for scenic views and photography</li>
+      <li>Arrive in Gilgit and explore local bazaar</li>
+      <li>Overnight stay in Gilgit</li>
+    </ul>
+  </div>
+
+  {/* Day 5 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 5 – Gilgit to Hunza</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Drive along the Karakoram Highway</li>
+      <li>Visit Rakaposhi View Point</li>
+      <li>Evening cultural walk in Karimabad</li>
+      <li>Overnight stay in Hunza</li>
+    </ul>
+  </div>
+
+  {/* Day 6 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 6 – Hunza Culture & Heritage</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Explore Baltit and Altit Forts</li>
+      <li>Visit Attabad Lake and Passu Cones</li>
+      <li>Enjoy Hunza traditional music performance</li>
+      <li>Overnight stay in Hunza</li>
+    </ul>
+  </div>
+
+  {/* Day 7 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 7 – Return Journey</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Drive back to Islamabad via scenic valleys</li>
+      <li>Short stops for souvenirs and local snacks</li>
+      <li>Farewell dinner</li>
+    </ul>
+  </div>
+
+  {/* Day 8 */}
+  <div>
+    <h3 className="font-bold text-lg">Day 8 – Departure</h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Airport drop-off for your onward journey</li>
+    </ul>
+  </div>
+
+</div>
+
 
       {/* Company Info */}
       <div className="border-t pt-6 text-sm text-gray-700">

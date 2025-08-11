@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 
 const PlaceDetail = () => {
   const { title } = useParams();
+  // this card is Karakoram And Himalayas
 
   return (
     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-10">
@@ -47,7 +48,7 @@ const PlaceDetail = () => {
         Tour Highlights
       </h2>
       <ul className="list-disc list-inside mb-10 text-gray-700 space-y-2">
-        <li>Tour of Islamabad</li>
+        <li>Tour of Islamabad </li>
         <li>Explore Baltistan – the Little Tibet</li>
         <li>Drive on the legendary Karakoram Highway</li>
         <li>Visit Gilgit – Silk Route Town</li>
