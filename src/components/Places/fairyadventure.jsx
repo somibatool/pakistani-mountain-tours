@@ -97,10 +97,9 @@ const fairyadventure = () => {
             <td className="p-3 font-semibold border border-gray-300">Excluded:</td>
             <td className="p-3 border border-gray-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>Airfare to/from starting/ending cities</li>
+                <li>International Flights</li>
                 <li>Personal expenses</li>
-                <li>Travel insurance</li>
-                <li>Tips & gratuities</li>
+              
               </ul>
             </td>
           </tr>

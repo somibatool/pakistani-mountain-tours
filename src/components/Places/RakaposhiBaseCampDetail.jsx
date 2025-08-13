@@ -68,6 +68,10 @@ const RakaposhiBaseCampDetail = () => {
                  <li>Entrance Fees</li>
                  <li>Photography Assistance</li>
                  <li>Professional Tour Guide</li>
+                  <li>Kitchen Gear</li>
+                 <li>Camp</li>
+                 <li>Sleeping Bag</li>
+                 <li>Porter</li>
                </ul>
              </td>
            </tr>
@@ -76,7 +80,7 @@ const RakaposhiBaseCampDetail = () => {
              <td className="p-3 border border-gray-300">
                <ul className="list-disc list-inside space-y-1">
                  <li>International Flights</li>
-                 <li>Personal Expenses</li>
+                
                </ul>
              </td>
            </tr>

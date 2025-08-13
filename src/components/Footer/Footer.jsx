@@ -22,14 +22,15 @@ const FooterLinks = [
     link: "/about",
   },
   {
+    title: "Gallery", // Changed from Blogs to Gallery
+    link: "/gallery",
+  },
+  {
     title: "Best Places",
     link: "/best-places",
   },
-  {
-    title: "Blogs",
-    link: "/blogs",
-  },
 ];
+
 
 const Footer = () => {
   return (

@@ -8,7 +8,7 @@ const CompanyIntro = () => {
       
       {/* Left Section: Text & Buttons */}
       <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-10">
-        <h1 className="text-4xl font-bold text-primary mb-6">
+        <h1 className="text-4xl font-bold text-black mb-6">
           Explore The World With Us
         </h1>
        <p className="text-gray-700 mb-8 leading-relaxed">

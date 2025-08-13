@@ -100,8 +100,7 @@ const DeosaiDetail = () => {
               <ul className="list-disc list-inside space-y-1">
                 <li>Airfare to/from Skardu</li>
                 <li>Personal expenses</li>
-                <li>Travel insurance</li>
-                <li>Tips & gratuities</li>
+              
               </ul>
             </td>
           </tr>

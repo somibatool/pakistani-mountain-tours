@@ -12,6 +12,7 @@ import FairyMedows from "../../assets/adventureFairymedows/2.jpg";
 const PlaceDetail = () => {
   const { title } = useParams();
   // this card is Karakoram And Himalayas
+  // attabad lake 
 
   return (
     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-10">
@@ -97,14 +98,15 @@ const PlaceDetail = () => {
             </td>
             <td className="p-3 border border-gray-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>One internal flight ticket (Islamabad - Gilgit)</li>
-                <li>All lodgings</li>
-                <li>All breakfasts</li>
-                <li>Private transportation</li>
-                <li>4WD Jeep on Fairy Meadow road</li>
-                <li>Services of English speaking Guide</li>
-                <li>Road taxes / tolls</li>
-                <li>Letter of invitation to support the visa</li>
+                <li>Hotels (3 and 4 start)</li>
+                <li>Breakfast, Lunch, Dinner </li>
+                <li>Water And Fruits</li>
+                <li>Transport, transfer and Fuel</li>
+                <li>Entrance Fee</li>
+                <li>1 Domestic Flights (Islambad -Skardu)</li>
+                <li>Guiding</li>
+                <li>visa</li>
+                <li>Insurance</li>
               </ul>
             </td>
           </tr>
@@ -116,12 +118,8 @@ const PlaceDetail = () => {
             </td>
             <td className="p-3 border border-gray-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>Flights to Pakistan and airport taxes</li>
-                <li>Insurance</li>
-                <li>Entrance fees</li>
-                <li>Lunch & dinner</li>
-                <li>Drinks</li>
-                <li>Tipping</li>
+                <li>International Flights</li>
+              
               </ul>
             </td>
           </tr>

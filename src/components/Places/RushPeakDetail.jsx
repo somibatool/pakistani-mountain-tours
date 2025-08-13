@@ -68,6 +68,10 @@ const RushPeakDetail = () => {
                  <li>Local guides and porters</li>
                  <li>Camping gear and logistics</li>
                  <li>Permits and entrance fees</li>
+                 <li>Kitchen Gear</li>
+                 <li>Camp</li>
+                 <li>Sleeping Bag</li>
+                 <li>Porter</li>
                </ul>
              </td>
            </tr>
@@ -76,7 +80,7 @@ const RushPeakDetail = () => {
              <td className="p-3 border border-gray-300">
                <ul className="list-disc list-inside space-y-1">
                  <li>International Flights</li>
-                 <li>Personal gear and expenses</li>
+             
                </ul>
              </td>
            </tr>

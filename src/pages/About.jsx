@@ -5,6 +5,7 @@ import TeamImage from "../assets/adventureFairymedows/11.jpg";
 import CoFounderImage from "../assets/adventureFairymedows/measum.jpg"; 
 import Sajid from "../assets/adventureFairymedows/sajid.jpg"; 
 import Ali from "../assets/adventureFairymedows/ali.jpg"; 
+import Somi from '../assets/adventureFairymedows/somi.jpg'
 import Testimonial from "../components/Testimonial/Testimonial"
 import StayConnected from "./StayConnected";
 
@@ -17,14 +18,9 @@ const AboutUs = () => {
   alt="Team Image" 
   className="w-full h-90 object-fit rounded-lg shadow-lg"
 />
-
-
-
-      
-      
       {/* ABOUT US SECTION */}
       <div className="py-12 px-4 md:px-20">
-        <h1 className="text-4xl font-bold text-center text-primary mb-6">
+        <h1 className="text-4xl font-bold text-center text-black mb-6">
           About Us
         </h1>
         <p className="text-lg leading-relaxed text-center max-w-4xl mx-auto">
@@ -55,16 +51,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
-    
-
-
-
-
-
-
-
-
       {/* sajid  */}
       <div className="py-12 px-4 md:px-20">
         <h2 className="text-3xl font-bold mb-8 text-black"> Tour guides</h2>
@@ -110,9 +96,9 @@ const AboutUs = () => {
 
           {/* measum */}
           <div className="w-full md:w-2/3 text-lg leading-relaxed">
-            <p className="mb-4 font-semibold">[Meet Measum Abbas – Your Mountain Adventure Guide ]</p>
+            <p className="mb-4 font-semibold">[Meet Mesum Abbas – Your Mountain Adventure Guide ]</p>
             <p>
-              Measum Abbas is a passionate young tour guide with fresh and unique ideas to make every journey unforgettable. Known for his friendly nature and deep knowledge of Pakistan’s breathtaking mountain regions, Measum knows how to turn a simple trip into a once-in-a-lifetime experience.
+              Mesum Abbas is a passionate young tour guide with fresh and unique ideas to make every journey unforgettable. Known for his friendly nature and deep knowledge of Pakistan’s breathtaking mountain regions, Measum knows how to turn a simple trip into a once-in-a-lifetime experience.
 Whether you’re exploring the valleys of Hunza, trekking through Fairy Meadows, or discovering hidden trails, Measum will ensure every moment is filled with excitement, comfort, and stories worth sharing.
 Connect with Measum today and let him lead you to the heart of Pakistan’s natural beauty.
             </p>
@@ -141,6 +127,33 @@ Connect with Measum today and let him lead you to the heart of Pakistan’s natu
       />
     </div>
   </div>
+</div>
+<div className="py-12 px-4 md:px-20">
+  <div className="flex flex-col md:flex-row items-center gap-10">
+     {/* Sommi Image */}
+    <div className="w-full md:w-1/3">
+      <img
+        src={Somi}
+        alt="somi"
+        className="rounded-lg shadow-lg object-cover max-h-[400px] w-full"
+      />
+    </div>
+    {/* sOMI Description */}
+
+    <div className="w-full md:w-2/3 text-lg leading-relaxed">
+    <p className="mb-4 font-semibold">[Meet Somi Batool – Marketing & Social Media Manager]</p>
+      <p>
+      Somi Batool is a dedicated marketing and social media manager with a strong passion for creating impactful online brand experiences. 
+  Skilled in content creation, campaign planning, and audience engagement, she knows how to craft strategies that connect with people and deliver results. 
+  Somi excels at building brand presence across platforms, using creative visuals, compelling storytelling, and data-driven insights. 
+  Her ability to adapt to trends, analyze performance, and maintain authentic audience relationships makes her an asset to any marketing team, 
+  ensuring every project stands out and resonates with its target audience.
+      </p>
+    </div>
+
+   
+  </div>
+  
 </div>
 
       < Testimonial />

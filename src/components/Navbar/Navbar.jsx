@@ -141,21 +141,23 @@ const Navbar = ({ handleOrderPopup }) => {
                     Home
                   </NavLink>
                 </li>
-                <li className="py-4">
-                  <NavLink to="/gallery" activeClassName="active">
-                    Gallery
+                 <li className="py-4">
+                  <NavLink to="/about" activeClassName="active">
+                    About
                   </NavLink>
                 </li>
-                <li className="py-4">
+                  <li className="py-4">
                   <NavLink to="/best-places" activeClassName="active">
                     Best Places
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/about" activeClassName="active">
-                    About
+                  <NavLink to="/gallery" activeClassName="active">
+                    Gallery
                   </NavLink>
                 </li>
+              
+               
                 <li className="py-4">
                   <NavLink to="/Contact" activeClassName="active">
                     Contact

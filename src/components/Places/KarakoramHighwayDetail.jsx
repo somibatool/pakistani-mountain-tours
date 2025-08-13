@@ -15,7 +15,7 @@ const KarakoramHighwayDetail = () => {
  return (
     <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-10">
       <h1 className="text-4xl font-bold text-center text-primary mb-6">
-        {title}Karakoram Highway - Bike Tour
+        {title}Karakoram Highway - Mototbike Tour
       </h1>
 
       <h3 className="text-lg font-semibold text-center mb-4 text-gray-700">
@@ -55,10 +55,13 @@ const KarakoramHighwayDetail = () => {
              <td className="p-3 font-semibold border border-gray-300">Included:</td>
              <td className="p-3 border border-gray-300">
                <ul className="list-disc list-inside space-y-1">
-                 <li>4-star Hotels</li>
+                 <li>Motorbike Suzuki 150cc</li>
+                 <li>Service Car</li>
+                 <li>Local Guide</li>
+                 <li>Marshall</li>
+                 <li>Safety Kit</li>
                  <li>All Meals (Breakfast, Lunch, Dinner)</li>
                  <li>Transport & Fuel</li>
-                 <li>Entrance Fees</li>
                  <li>Photography Assistance</li>
                  <li>Professional Tour Guide</li>
                </ul>
@@ -69,7 +72,7 @@ const KarakoramHighwayDetail = () => {
              <td className="p-3 border border-gray-300">
                <ul className="list-disc list-inside space-y-1">
                  <li>International Flights</li>
-                 <li>Personal Expenses</li>
+             
                </ul>
              </td>
            </tr>

@@ -93,10 +93,9 @@ const AstoreAdventuredetail = () => {
             <td className="p-3 font-semibold border border-gray-300">Excluded:</td>
             <td className="p-3 border border-gray-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>Domestic/International flights</li>
+                <li>International Flights</li>
                 <li>Personal expenses</li>
-                <li>Insurance</li>
-                <li>Tips and gratuities</li>
+               
               </ul>
             </td>
           </tr>

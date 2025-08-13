@@ -67,12 +67,15 @@ const Autumn = () => {
             <td className="p-3 font-semibold border border-gray-300">Included:</td>
             <td className="p-3 border border-gray-300">
               <ul className="list-disc list-inside space-y-1">
-                <li>4-star Hotels</li>
-                <li>All Meals (Breakfast, Lunch, Dinner)</li>
-                <li>Transport & Fuel</li>
-                <li>Entrance Fees</li>
-                <li>Photography Assistance</li>
-                <li>Professional Tour Guide</li>
+                <li>Hotels (3 and 4 start)</li>
+                <li>Breakfast, Lunch, Dinner </li>
+                <li>Water And Fruits</li>
+                <li>Transport, transfer and Fuel</li>
+                <li>Entrance Fee</li>
+                <li>1 Domestic Flights (Islambad -Skardu)</li>
+                <li>Guiding</li>
+                <li>visa</li>
+                <li>Insurance</li>
               </ul>
             </td>
           </tr>
