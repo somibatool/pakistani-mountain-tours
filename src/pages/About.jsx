@@ -4,7 +4,7 @@ import Team1 from '../assets/team pic/aboutteam.png';
 import TeamImage from "../assets/adventureFairymedows/11.jpg";         
 import CoFounderImage from "../assets/adventureFairymedows/measum.jpg"; 
 import Sajid from "../assets/adventureFairymedows/sajid.jpg"; 
-import Ali from "../assets/adventureFairymedows/Ali.jpg"; 
+import Ali from "../assets/adventureFairymedows/ali.jpg"; 
 import Testimonial from "../components/Testimonial/Testimonial"
 import StayConnected from "./StayConnected";
 
