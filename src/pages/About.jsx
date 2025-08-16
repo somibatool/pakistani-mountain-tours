@@ -1,6 +1,6 @@
 
 import React from "react";
-import Team1 from '../assets/team pic/aboutteam.png';
+import Team1 from '../assets/team pic/123.png';
 import TeamImage from "../assets/adventureFairymedows/11.jpg";         
 import CoFounderImage from "../assets/adventureFairymedows/measum.jpg"; 
 import Sajid from "../assets/adventureFairymedows/sajid.jpg"; 

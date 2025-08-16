@@ -2,9 +2,9 @@ import React from "react";
 import PlaceCard from "./PlaceCard";
 
 // Import images for bike tours (replace with real images later)
-import Img1 from "../../assets/bike.jpg";
-import Img2 from "../../assets/bikeTour/9.jpeg";
-import Img3 from "../../assets/bikeTour/11.jpg";
+import Img1 from "../../assets/bikeTour/90.jpg";
+import Img2 from "../../assets/bikeTour/98.jpg";
+import Img3 from "../../assets/bikeTour/96.jpg";
 
 const BikeTourData = [
   {

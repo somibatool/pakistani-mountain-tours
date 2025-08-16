@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Img1 from '../../assets/bikeTour/20.jpg';
-import Img2 from '../../assets/bikeTour/19.jpg';
-import Img3 from '../../assets/bikeTour/18.jpg';
-import Img4 from '../../assets/bikeTour/17.jpg';
-import Img5 from '../../assets/bikeTour/16.jpg';
+import Img1 from '../../assets/bikeTour/99.jpg';
+import Img2 from '../../assets/bikeTour/100.jpg';
+import Img3 from '../../assets/bikeTour/101.jpg';
+import Img4 from '../../assets/bikeTour/102.jpg';
+import Img5 from '../../assets/bikeTour/103.jpg';
 import Img6 from '../../assets/bikeTour/15.jpg';
 import Img7 from '../../assets/bikeTour/14.jpg';
 import Img8 from '../../assets/bikeTour/12.jpg';
@@ -50,14 +50,14 @@ const KhunjerabPassDetail = () => {
       </ul>
 
        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-                    <img src={Img1} alt="Tour 1" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img2} alt="Tour 2" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img3} alt="Tour 3" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img4} alt="Tour 4" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img5} alt="Tour 5" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img6} alt="Tour 6" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img7} alt="Tour 7" className="w-full h-48 object-cover rounded-lg" />
-                    <img src={Img8} alt="Tour 8" className="w-full h-48 object-cover rounded-lg" />
+                    <img src={Img1} alt="Tour 1" className="w-full h-full object-cover rounded-lg" />
+                    <img src={Img2} alt="Tour 2" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img3} alt="Tour 3" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img4} alt="Tour 4" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img5} alt="Tour 5" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img6} alt="Tour 6" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img7} alt="Tour 7" className="w-full  h-full object-cover rounded-lg" />
+                    <img src={Img8} alt="Tour 8" className="w-full  h-full object-cover rounded-lg" />
                   </div>
       <table className="w-full border border-gray-300 text-sm mb-10">
         <tbody>

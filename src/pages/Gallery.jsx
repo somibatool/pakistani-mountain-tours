@@ -1,14 +1,22 @@
 import React, { useState } from "react";
-import Img1 from "../assets/airport1.jpg";
-import Img2 from "../assets/adventure deosii/4.jpg";
-import Img3 from "../assets/adventure deosii/3.jpg";
-import Img11 from "../assets/adventureFairymedows/1.jpg";
-import Img4 from "../assets/adventureFairymedows/12.jpg";
-import Img5 from "../assets/adventureFairymedows/3.jpg";
-import Img6 from "../assets/k2-trk/2.jpg";
-import Img7 from "../assets/adventure deosii/18.jpg";
-import Img8 from "../assets/skarduheart.jpg";
-import Img9 from "../assets/bikeTour/17.jpg";
+import Img1 from "../assets/team pic/17.jpg";
+import Img2 from "../assets/team pic/2.jpg";
+import Img3 from "../assets/team pic/3.jpg";
+import Img11 from "../assets/team pic/4.jpg";
+import Img4 from "../assets/team pic/5.jpg";
+import Img5 from "../assets/team pic/6.jpg";
+import Img6 from "../assets/team pic/7.jpg";
+import Img7 from "../assets/team pic/8.jpg";
+import Img8 from "../assets/team pic/9.jpg";
+import Img9 from "../assets/team pic/10.jpg";
+import Img91 from "../assets/team pic/12.jpg";
+import Img92 from "../assets/team pic/13.jpg";
+import Img93 from "../assets/team pic/14.jpg";
+import Img94 from "../assets/team pic/15.jpg";
+import Img95 from "../assets/team pic/16.jpg";
+import Img96 from "../assets/team pic/1.jpg";
+import Img97 from "../assets/team pic/97.jpg";
+import Img98 from "../assets/team pic/team2.jpg"
 import Img10 from "../assets/team pic/team 10.jpg";
 import Img12 from "../assets/nightview hunza.jpg";
 import Img13 from "../assets/rakaposhi-trk/1.jpg";
@@ -63,7 +71,7 @@ const tabs = [
 
 
 const allImages = {
-   "Gallery 2025": [Img1, Img2, Img3,  Img11, Img4, Img5, Img6, Img7, Img8, Img9, Img10,, Img4],
+   "Gallery 2025": [Img1, Img2, Img3,  Img11, Img4, Img5, Img6, Img7, Img8, Img9, Img10,, Img4 , Img91 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
   "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23],
   "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
   "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],
