@@ -71,7 +71,7 @@ const tabs = [
 
 
 const allImages = {
-   "Gallery 2025": [Img1, Img2, Img3,  Img11, Img4, Img5, Img6, Img7, Img8, Img9, Img10,, Img4 , Img91 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
+   "Gallery 2025": [Img1, Img2, Img3,  Img11, Img91, Img9, Img6, Img7, Img8, Img5, Img10,, Img18 , Img4 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
   "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23],
   "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
   "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],

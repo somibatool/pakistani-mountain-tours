@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaTiktok,
   FaWhatsapp,
+  FaLine,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -44,6 +45,12 @@ const StayConnected = () => {
   link: "mailto:pakistanimountaintours@gmail.com",
   color: "bg-red-500",
 },
+{
+  icon: <FaLine />,
+  link: "https://line.me/ti/p/VJ8LQ7OhQv",
+  color: "bg-green-500", // LINE's official color
+},
+
 
           
             {

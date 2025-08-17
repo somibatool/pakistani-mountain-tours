@@ -81,14 +81,7 @@ const HeroSlider = () => {
           {images[currentIndex].description}
         </p>
 
-      <a
-  href="https://line.me/ti/p/VJ8LQ7OhQv "
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
->
-  Contact Us on LINE
-</a>
+<a href="https://wa.me/66956071567" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9" > Contact Us On WhatsApp </a>
 
       </div>
     </div>
