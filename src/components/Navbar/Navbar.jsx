@@ -70,7 +70,7 @@ const Navbar = ({ handleOrderPopup }) => {
 <div className="flex items-center gap-6 text-sm text-white">
   <div className="flex items-center gap-2">
     <FaClock className="text-white" />
-    <p>8:00 TO 7:00</p>
+    <p>24 Hours Open</p>
   </div>
 
   <div className="flex items-center gap-2">

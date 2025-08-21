@@ -11,14 +11,14 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         showMenu ? "left-0" : "-left-[100%]"
       } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white dark:bg-gray-900 dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 md:hidden rounded-r-xl shadow-md`}
     >
-      <div className="card">
-        <div className="flex items-center justify-start gap-3">
+     
+        {/* <div className="flex items-center justify-start gap-3">
           <FaUserCircle size={50} />
           <div>
             <h1>Hello User</h1>
   
           </div>
-        </div>
+        </div> */}
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             {NavbarLinks.map((data) => (
@@ -34,12 +34,8 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
             ))}
           </ul>
         </nav>
-      </div>
-      <div className="footer">
-        <h1>
-          Made with ❤ by <a href="https://github.com/somibatool">Somi Batool</a>{" "}
-        </h1>
-      </div>
+     
+    
     </div>
   );
 };

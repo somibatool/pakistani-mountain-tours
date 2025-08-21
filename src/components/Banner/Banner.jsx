@@ -27,15 +27,14 @@ const Banner = () => {
                 >
                   Explore all corners of The world with us
                 </h1>
-                <p
-                  data-aos="fade-up"
-                  className="text-sm text-gray-500 tracking-wide leading-8"
-                >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
-                  <br />
-                </p>
+              <p
+  data-aos="fade-up"
+  className="text-sm text-gray-500 tracking-wide leading-8"
+>
+  Discover the untouched beauty of Pakistan with Pakistani Mountain Tours. From the majestic peaks of the Karakoram to the serene valleys of the north, we craft unforgettable journeys filled with culture, adventure, and natural wonder.
+ 
+</p>
+
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">

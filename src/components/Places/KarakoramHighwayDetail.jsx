@@ -13,8 +13,8 @@ const KarakoramHighwayDetail = () => {
   const { title } = useParams();
 
  return (
-    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-10">
-      <h1 className="text-4xl font-bold text-center text-primary mb-6">
+    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-20">
+      <h1 className="text-4xl font-bold text-center text-black mb-8">
         {title}Karakoram Highway - Mototbike Tour
       </h1>
 

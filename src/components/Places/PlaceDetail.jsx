@@ -15,9 +15,9 @@ const PlaceDetail = () => {
   // attabad lake 
 
   return (
-    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-10">
+    <div className="min-h-screen bg-white pt-24 px-4 md:px-10 pb-10 overflow-y-auto mt-20">
       {/* Main Heading Centered */}
-      <h1 className="text-4xl font-bold text-center text-primary mb-6">
+      <h1 className="text-4xl font-bold text-center text-black mb-8">
         {title} - Gilgit Baltistan Tour
       </h1>
 
