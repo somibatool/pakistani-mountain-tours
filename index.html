@@ -9,6 +9,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="//code.tidio.co/vqeco5zcnjttc6xxdq5unmerw4svkd2n.js" async></script>
+  <!-- ✅ Tidio Embed Script -->
+<script src="//code.tidio.co/vqeco5zcnjttc6xxdq5unmerw4svkd2n.js" async></script>
+
+<!-- ✅ Reset Tidio on Every Refresh (with safe delay) -->
+<script>
+  document.addEventListener("tidioChat-ready", function () {
+    setTimeout(() => {
+      if (typeof tidioChatApi !== "undefined") {
+        tidioChatApi.reset(); // 🚨 Clears everything including cookies/local data
+        tidioChatApi.setVisitorData({
+          distinct_id: Date.now().toString()
+        });
+      }
+    }, 1000);
+  });
+</script>
+
+
+
   </body>
 </html>
