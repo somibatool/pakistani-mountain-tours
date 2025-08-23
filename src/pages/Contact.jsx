@@ -67,9 +67,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p>
-          Ready for your next adventure?
-Get in touch today and explore Pakistan’s majestic mountains with us. From the snow-capped peaks of Hunza to the lush valleys of Swat, your next journey begins here.
-Reach out to us for bookings, inquiries, or personalized travel plans. 
+For all your travel inquiries, bookings, or custom tour plans, get in touch with us at Pakistani Mountain Tours. Our team is ready to help you explore breathtaking destinations across Hunza, Skardu, Fairy Meadows, and South Pakistan. Pakistani Mountain Tours is your trusted travel partner for unforgettable adventures in the heart of Pakistan. 
           </p>
         </div>
       </div>

@@ -95,7 +95,8 @@ const Gallery = () => {
         <div className="mt-4 text-center">
           <h2 className="text-3xl font-bold mb-2">Explore Our Gallery</h2>
           <p className="text-gray-600">
-            This is our gallery section where all our tour images are shown. From the mountains of North Pakistan to the vibrant festivals of Kalash, our collection captures the true essence of adventure.
+Welcome to the Gallery section of Pakistani Mountain Tours
+, where we showcase unforgettable moments from our tours. This is our gallery section where all our tour images are shown — from the majestic mountains of North Pakistan to the vibrant festivals of Kalash. Our photo collection captures the true essence of adventure, culture, and the beauty that Pakistani Mountain Tours proudly brings to every journey.
           </p>
         </div>
       </div>

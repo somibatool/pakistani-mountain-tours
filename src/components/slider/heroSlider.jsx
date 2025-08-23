@@ -16,28 +16,28 @@ const images = [
   {
     src: SkarduImage,
     mobileSrc: SkarduImageMobile,
-    title: "Explore South Pakistan",
+    title: "Welcome to Pakistani Mountain Tours",
     description:
-      "South Pakistan – a region of vibrant culture, ancient heritage, and breathtaking landscapes from deserts to coastlines.",
+      "Discover South Pakistan with Pakistani Mountain Tours. From rich cultural heritage to breathtaking valleys and scenic meadows — your adventure begins here",
   },
   {
     src: HunzaImage,
     mobileSrc: HunzaImageMobile,
-    title: "Explore Fairy Medows",
+    title: "Welcome to Pakistani Mountain Tours",
     description:
-      "A paradise on earth, with breathtaking valleys and rich culture.",
+      "Pakistani Mountain Tours brings you to Hunza Valley — a land of majestic mountains, vibrant traditions, and unmatched hospitality. Discover crystal-clear rivers, ancient forts, and peaceful villages nestled among the peaks.",
   },
   {
     src: FairyMeadowsImage,
     mobileSrc: FairyMeadowsImageMobile,
-    title: "Explore Rakaposhi Nagar",
-    description: "Experience the mesmerizing meadows and stunning views.",
+    title: "Welcome to Pakistani Mountain Tours",
+    description: "Fairy Meadows, offered by Pakistani Mountain Tours, is where nature speaks in silence. Hike through lush green meadows, sleep under starry skies, and witness the mighty Nanga Parbat up close — a dream for every trekker.",
   },
   {
     src: BikeImage,
     mobileSrc: BikeImageMobile,
-    title: "Explore Skardu Valley",
-    description: "Ride through nature’s wonderland and enjoy peaceful sceneries.",
+    title: "Welcome to Pakistani Mountain Tours",
+    description: "Explore Skardu with Pakistani Mountain Tours — where dramatic landscapes meet tranquil lakes and ancient history. Visit Shangrila Resort, Satpara Lake, and the gateway to thrilling mountain adventures",
   },
 ];
 
@@ -104,6 +104,8 @@ const HeroSlider = () => {
         <p className="text-white text-sm md:text-lg max-w-xl mt-4 transition-opacity duration-500">
           {images[currentIndex].description}
         </p>
+      
+
 
         <a
           href="https://wa.me/66956071567"
