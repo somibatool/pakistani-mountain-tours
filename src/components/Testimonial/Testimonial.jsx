@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 import userimg from "../../assets/autumn/doctor_client.jpg";
 import userimg1 from "../../assets/andrew.jpg";
 import userimg2 from "../../assets/client5.jpg";
+import userimg4 from "../../assets/team pic/nithi.jpg";
 import googleLogo from "../../assets/google.png"; // make sure this exists in your assets folder
 
 const testimonialData = [
@@ -27,6 +28,13 @@ const testimonialData = [
     date: "5 november 2024",
     text: "Our trip with Pakistani Mountain Tours was nothing short of amazing. From the moment we arrived, everything was well-organized. The guide was kind and helpful, making sure we were comfortable and informed throughout. He shared stories about each place and showed us hidden gems we wouldn’t have discovered on our own. You can reach out to him anytime for advice on where to go in Pakistan. The hospitality, the mountains, and the people all left a lasting impression. I’m so glad we chose this tour!",
     img: userimg,
+  },
+  {
+    id: 4,
+    name:"Nithi Bunchatheravate",
+    date :"1 october 2025",
+    text: " I took the Gilgit-Baltistan Tour in October of 2025 with Pakistani Mountain Tours, and it was fantastic! Our tour guide, Rashid, was incredibly friendly and did an excellent job leading the trip. His English was clear understand. He even had his niece and nephew join the group to help look after us and make sure everything ran smoothly. I highly recommend this tour.Pakistan's scenery is truly magnificent.If you want to go in autumn for autumn leaf colour or when the blossoms are blooming in spring, it would be many times more beautiful. Don't hesitate to visit!",
+    img: userimg4,
   },
 ];
 

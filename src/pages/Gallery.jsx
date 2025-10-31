@@ -54,6 +54,30 @@ import Img44 from "../assets/culture/9.jpg";
 import Img45 from "../assets/culture/10.jpg";
 import Img46 from "../assets/culture/11.jpg";
 import Img47 from "../assets/culture/12.jpg";
+import Img48 from "../assets/newclients/39.jpg";
+import Img49 from "../assets/newclients/37.jpg";
+import Img50 from "../assets/newclients/3.jpg";
+import Img51 from "../assets/newclients/36.jpg";
+import Img52 from "../assets/newclients/38.jpg";
+import Img53 from "../assets/newclients/6.jpg";
+import Img54 from "../assets/newclients/7.jpg";
+import Img55 from "../assets/newclients/8.jpg";
+import Img56 from "../assets/newclients/26.jpg";
+import Img57 from "../assets/newclients/27.jpg";
+import Img58 from "../assets/newclients/28.jpg";
+import Img59 from "../assets/newclients/30.jpg";
+import Img60 from "../assets/newclients/26.jpg";
+import Img61 from "../assets/newclients/0.jpg";
+import Img62 from "../assets/newclients/1.jpg";
+import Img63 from "../assets/newclients/20.jpg";
+import Img64 from "../assets/newclients/21.jpg";
+import Img65 from "../assets/newclients/22.jpg";
+import Img66 from "../assets/newclients/23.jpg";
+import Img67 from "../assets/newclients/24.jpg";
+import Img68 from "../assets/newclients/25.jpg";
+// import Img69 from "../assets/newclients/39.jpg";
+import Img70 from "../assets/newclients/40.jpg";
+import Img71 from "../assets/newclients/35.jpg";
 
 
 import Testimonial from "../components/Testimonial/Testimonial";
@@ -61,6 +85,7 @@ import StayConnected from "./StayConnected";
 
 // Tabs
 const tabs = [
+  "Gallery 2024",
   "Gallery 2025",
   "North Pakistan",
   "South Pakistan",
@@ -71,7 +96,8 @@ const tabs = [
 
 
 const allImages = {
-   "Gallery 2025": [Img1, Img2, Img3,  Img11, Img91, Img9, Img6, Img7, Img8, Img5, Img10,, Img18 , Img4 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
+   "Gallery 2024": [Img1, Img2, Img3,  Img11, Img91, Img9, Img6, Img7, Img8, Img5, Img10,, Img18 , Img4 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
+   "Gallery 2025":[Img48, Img49,Img50,Img51,Img52,Img53,Img54,Img55,Img56,Img57,Img58,Img59,Img60,Img61,Img62, Img63 , Img64 ,Img65, Img66, Img67, Img68,Img70, Img71],
   "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23],
   "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
   "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],
@@ -80,7 +106,7 @@ const allImages = {
 
 
 const Gallery = () => {
-  const [activeTab, setActiveTab] = useState("Gallery 2025");
+  const [activeTab, setActiveTab] = useState("Gallery 2024");
 
   return (
     <div className="p-6 max-w-7xl mx-auto mt-40">
