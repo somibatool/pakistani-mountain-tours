@@ -75,9 +75,12 @@ import Img65 from "../assets/newclients/22.jpg";
 import Img66 from "../assets/newclients/23.jpg";
 import Img67 from "../assets/newclients/24.jpg";
 import Img68 from "../assets/newclients/25.jpg";
-// import Img69 from "../assets/newclients/39.jpg";
 import Img70 from "../assets/newclients/40.jpg";
 import Img71 from "../assets/newclients/35.jpg";
+import Img72 from "../assets/newclients/42.jpg"
+import Img73 from "../assets/newclients/hunza.jpg"
+import Img74 from "../assets/newclients/rashid.jpg"
+import Img75 from "../assets/newclients/41.jpg"
 
 
 import Testimonial from "../components/Testimonial/Testimonial";
@@ -97,8 +100,8 @@ const tabs = [
 
 const allImages = {
    "Gallery 2024": [Img1, Img2, Img3,  Img11, Img91, Img9, Img6, Img7, Img8, Img5, Img10,, Img18 , Img4 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
-   "Gallery 2025":[Img48, Img49,Img50,Img51,Img52,Img53,Img54,Img55,Img56,Img57,Img58,Img59,Img60,Img61,Img62, Img63 , Img64 ,Img65, Img66, Img67, Img68,Img70, Img71],
-  "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23],
+   "Gallery 2025":[Img48, Img49,Img50,Img51,Img52,Img53,Img54,Img55,Img56,Img57,Img58,Img59,Img60,Img61,Img62, Img63 , Img64 ,Img65, Img66, Img67, Img68,Img70, Img71, Img72],
+  "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, Img67, Img73,Img74,Img75],
   "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
   "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],
   // "Afghanistan": [Img1, Img2, Img6, Img7, Img3, Img5, Img4, Img8, Img1, Img5, Img2, Img3],

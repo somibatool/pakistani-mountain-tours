@@ -1,7 +1,7 @@
 
 import React from "react";
 import Team1 from '../assets/team pic/team18.jpg';
-import TeamImage from "../assets/adventureFairymedows/11.jpg";         
+import TeamImage from "../assets/newclients/28.jpg";         
 import CoFounderImage from "../assets/adventureFairymedows/measum.jpg"; 
 import Sajid from "../assets/adventureFairymedows/sajid.jpg"; 
 import Ali from "../assets/adventureFairymedows/ali.jpg"; 
@@ -62,7 +62,7 @@ const AboutUs = () => {
           <div className="w-full md:w-2/3 text-lg leading-relaxed">
             <p className="mb-4 font-semibold">[Meet Sajid Hussain – Your Expert Tour Guide]</p>
             <p>
-             Sajid Hussain is an experienced and dedicated tour guide with a passion for showcasing the beauty of Pakistan. Known for his friendly personality and deep knowledge of the country’s diverse landscapes, Sajid transforms every trip into a memorable adventure. Whether you’re exploring the valleys of Hunza, journeying to Skardu, or discovering the cultural charms of Chitral, Sajid ensures your experience is safe, comfortable, and filled with unforgettable moments. Travel with Sajid and uncover the true spirit of Pakistan.
+             Sajid Hussain is an experienced and dedicated tour guide of pakistani mountain tours with a passion for showcasing the beauty of Pakistan. Known for his friendly personality and deep knowledge of the country’s diverse landscapes, Sajid transforms every trip into a memorable adventure. Whether you’re exploring the valleys of Hunza, journeying to Skardu, or discovering the cultural charms of Chitral, Sajid ensures your experience is safe, comfortable, and filled with unforgettable moments. Travel with Sajid and uncover the true spirit of Pakistan.
             </p>
           </div>
 
@@ -98,7 +98,7 @@ const AboutUs = () => {
           <div className="w-full md:w-2/3 text-lg leading-relaxed">
             <p className="mb-4 font-semibold">[Meet Mesum Abbas – Your Mountain Adventure Guide ]</p>
             <p>
-              Mesum Abbas is a passionate young tour guide with fresh and unique ideas to make every journey unforgettable. Known for his friendly nature and deep knowledge of Pakistan’s breathtaking mountain regions, Measum knows how to turn a simple trip into a once-in-a-lifetime experience.
+              Mesum Abbas is a passionate young tour guide of pakistani mountain tour with fresh and unique ideas to make every journey unforgettable. Known for his friendly nature and deep knowledge of Pakistan’s breathtaking mountain regions, Measum knows how to turn a simple trip into a once-in-a-lifetime experience.
 Whether you’re exploring the valleys of Hunza, trekking through Fairy Meadows, or discovering hidden trails, Measum will ensure every moment is filled with excitement, comfort, and stories worth sharing.
 Connect with Measum today and let him lead you to the heart of Pakistan’s natural beauty.
             </p>
@@ -114,7 +114,7 @@ Connect with Measum today and let him lead you to the heart of Pakistan’s natu
     <div className="w-full md:w-2/3 text-lg leading-relaxed">
       <p className="mb-4 font-semibold">[Meet Ali Mehdi – Junior Tour Guide]</p>
       <p>
-        Ali Mehdi is a passionate junior tour guide with a growing expertise in Pakistan’s most captivating destinations. Skilled in assisting with trekking routes, cultural tours, and logistical arrangements, he ensures travelers feel welcomed and well-informed. Ali has a keen eye for spotting hidden gems, whether it’s a scenic viewpoint, a lesser-known trail, or a local eatery worth trying. His enthusiasm, attention to detail, and commitment to guest satisfaction make every journey more engaging and memorable.
+        Ali Mehdi is a passionate junior tour guide of pakistani mountain tours with a growing expertise in Pakistan’s most captivating destinations. Skilled in assisting with trekking routes, cultural tours, and logistical arrangements, he ensures travelers feel welcomed and well-informed. Ali has a keen eye for spotting hidden gems, whether it’s a scenic viewpoint, a lesser-known trail, or a local eatery worth trying. His enthusiasm, attention to detail, and commitment to guest satisfaction make every journey more engaging and memorable.
       </p>
     </div>
 
@@ -143,7 +143,7 @@ Connect with Measum today and let him lead you to the heart of Pakistan’s natu
     <div className="w-full md:w-2/3 text-lg leading-relaxed">
     <p className="mb-4 font-semibold">[Meet Somi Batool – Marketing & Social Media Manager]</p>
       <p>
-      Somi Batool is a dedicated marketing and social media manager with a strong passion for creating impactful online brand experiences. 
+      Somi Batool is a dedicated marketing and social media manager of pakistani mountain tours with a strong passion for creating impactful online brand experiences. 
   Skilled in content creation, campaign planning, and audience engagement, she knows how to craft strategies that connect with people and deliver results. 
   Somi excels at building brand presence across platforms, using creative visuals, compelling storytelling, and data-driven insights. 
   Her ability to adapt to trends, analyze performance, and maintain authentic audience relationships makes her an asset to any marketing team, 

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-// 🖼️ Desktop Images
-import SkarduImage from "../../assets/adventure deosii/slider1234.jpg";
-import HunzaImage from "../../assets/adventureFairymedows/fairymedowshero.png";
-import FairyMeadowsImage from "../../assets/adventureFairymedows/slider1.jpg";
-import BikeImage from "../../assets/adventure deosii/skarduheart.jpg";
+//  Desktop Images
+import SkarduImage from "../../assets/newclients/23.jpg";
+import HunzaImage from "../../assets/newclients/40.jpg";
+import FairyMeadowsImage from "../../assets/adventure deosii/slider1234.jpg";
+import BikeImage from "../../assets/newclients/41.jpg";
 
-// 📱 Mobile Images (make sure to place your mobile-optimized images in the path below)
+//Mobile Images (make sure to place your mobile-optimized images in the path below)
 import SkarduImageMobile from "../../assets/south pakistan/1.jpg";
 import HunzaImageMobile from "../../assets/adventureFairymedows/1.jpg";
 import FairyMeadowsImageMobile from "../../assets/adventureFairymedows/2.jpg";
