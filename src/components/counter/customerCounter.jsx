@@ -45,7 +45,7 @@ const CustomerCounter = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
         <Counter title="Happy Travelers" targetNumber={8000} />
         <Counter title="Successful Tours" targetNumber={4000} />
-        <Counter title="Years of Experience" targetNumber={10} />
+        <Counter title="Years of Experience" targetNumber={17} />
         <Counter title="Customer Satisfaction" targetNumber={95} />
       </div>
     </div>

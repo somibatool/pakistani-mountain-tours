@@ -3,12 +3,12 @@ import { useEffect, useState } from "react";
 //  Desktop Images
 import SkarduImage from "../../assets/newclients/23.jpg";
 import HunzaImage from "../../assets/newclients/40.jpg";
-import FairyMeadowsImage from "../../assets/adventure deosii/slider1234.jpg";
+import FairyMeadowsImage from "../../assets/newclients/42.jpg";
 import BikeImage from "../../assets/newclients/41.jpg";
 
 //Mobile Images (make sure to place your mobile-optimized images in the path below)
-import SkarduImageMobile from "../../assets/south pakistan/1.jpg";
-import HunzaImageMobile from "../../assets/adventureFairymedows/1.jpg";
+import SkarduImageMobile from "../../assets/newclients/26.jpg";
+import HunzaImageMobile from "../../assets/newclients/20.jpg";
 import FairyMeadowsImageMobile from "../../assets/adventureFairymedows/2.jpg";
 import BikeImageMobile from "../../assets/adventure deosii/9.jpg";
 
@@ -18,26 +18,26 @@ const images = [
     mobileSrc: SkarduImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-      "Discover South Pakistan with Pakistani Mountain Tours. From rich cultural heritage to breathtaking valleys and scenic meadows — your adventure begins here",
+      "Discover South Pakistan with Pakistani Mountain Tours.",
   },
   {
     src: HunzaImage,
     mobileSrc: HunzaImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-      "Pakistani Mountain Tours brings you to Hunza Valley — a land of majestic mountains, vibrant traditions, and unmatched hospitality. Discover crystal-clear rivers, ancient forts, and peaceful villages nestled among the peaks.",
+      "Pakistani Mountain Tours brings you to Hunza a land of majestic mountains and unmatched hospitality.",
   },
   {
     src: FairyMeadowsImage,
     mobileSrc: FairyMeadowsImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-    description: "Fairy Meadows, offered by Pakistani Mountain Tours, is where nature speaks in silence. Hike through lush green meadows, sleep under starry skies, and witness the mighty Nanga Parbat up close — a dream for every trekker.",
+    description: "Fairy Meadows,offered by Pakistani Mountain Tours, is where nature speaks in silence.",
   },
   {
     src: BikeImage,
     mobileSrc: BikeImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-    description: "Explore Skardu with Pakistani Mountain Tours — where dramatic landscapes meet tranquil lakes and ancient history. Visit Shangrila Resort, Satpara Lake, and the gateway to thrilling mountain adventures",
+    description: "Explore Skardu with Pakistani Mountain Tours."
   },
 ];
 
@@ -96,22 +96,20 @@ const HeroSlider = () => {
       ))}
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 bg-black bg-opacity-20 flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-white text-3xl md:text-5xl font-bold mt-10 transition-opacity duration-500">
+      <div className="absolute inset-0 mt-25 bg-black bg-opacity-20 flex flex-col items-center justify-center text-center px-4">
+        <h1 className="text-white  text-3xl md:text-5xl font-bold mt-25 transition-opacity duration-500">
           {images[currentIndex].title}
         </h1>
 
-        <p className="text-white text-sm md:text-lg max-w-xl mt-4 transition-opacity duration-500">
+        <p className="text-white text-sm md:text-lg max-w-xl  transition-opacity duration-500">
           {images[currentIndex].description}
         </p>
-      
-
 
         <a
           href="https://wa.me/66956071567"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
+          className="bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-3"
         >
           Contact Us On WhatsApp
         </a>
