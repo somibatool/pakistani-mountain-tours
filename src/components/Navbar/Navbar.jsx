@@ -32,6 +32,10 @@ export const NavbarLinks = [
   {
     name: "Contact",
     link: "/contact",
+  },
+  {
+    name:"Meet our Tour Operator",
+    link: "/tour-operator"
   }
 ];
 
@@ -161,6 +165,11 @@ const Navbar = ({ handleOrderPopup }) => {
                 <li className="py-4">
                   <NavLink to="/Contact" activeClassName="active">
                     Contact
+                  </NavLink>
+                </li>
+                  <li className="py-4">
+                  <NavLink to="/tour-operator" activeClassName="active">
+                    Meet our tour operator
                   </NavLink>
                 </li>
                 {/* <li className="group relative cursor-pointer">

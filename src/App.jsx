@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-
 import NoPage from "./pages/NoPage";
 import PlacesRoute from "./pages/PlacesRoute";
 import About from "./pages/About";
@@ -27,6 +26,7 @@ import Fairyadventure from "./components/Places/fairyadventure";
 import BikeDetailPage from "./components/Places/BikeDetailPage";
 import KarakoramHighwayDetail from "./components/Places/KarakoramHighwayDetail";
 import KhunjerabPassDetail from "./components/Places/KhunjerabPassDetail";
+import TourOperator from "./pages/tourOperator";
 
 // import BikeDetailPage from './components/BikeDetailPage';
 
@@ -99,6 +99,8 @@ const App = () => {
           {/* <Route path="/bikeDetail/:title" element={<BikeDetailPage />} /> */}
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="/tour-operator" element={<TourOperator />} />
+
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
