@@ -26,7 +26,9 @@ import Fairyadventure from "./components/Places/fairyadventure";
 import BikeDetailPage from "./components/Places/BikeDetailPage";
 import KarakoramHighwayDetail from "./components/Places/KarakoramHighwayDetail";
 import KhunjerabPassDetail from "./components/Places/KhunjerabPassDetail";
-import TourOperator from "./pages/tourOperator";
+
+import MeetOperator from "./pages/MeetOperator";
+
 
 // import BikeDetailPage from './components/BikeDetailPage';
 
@@ -99,7 +101,7 @@ const App = () => {
           {/* <Route path="/bikeDetail/:title" element={<BikeDetailPage />} /> */}
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="/tour-operator" element={<TourOperator />} />
+          <Route path="/tour-operator" element={<MeetOperator />} />
 
           <Route path="*" element={<NoPage />} />
         </Route>

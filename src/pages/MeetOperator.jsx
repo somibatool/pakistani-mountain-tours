@@ -8,10 +8,25 @@ import img3 from "../assets/newclients/s.jpg";
 import img4 from "../assets/newclients/c.jpg";
 import img5 from "../assets/newclients/h.jpg";
 import img6 from "../assets/newclients/i.jpg";
+import img7 from "../assets/newclients/d.jpg";
+import img8 from "../assets/newclients/b.jpg";
+import img9 from "../assets/newclients/j.jpg";
+import img10 from "../assets/newclients/e.jpg";
+import img11 from "../assets/newclients/waterfall.jpg";
+import img12 from "../assets/newclients/w.jpg";
+import img13 from "../assets/newclients/56.jpg";
+import img14 from "../assets/newclients/q.jpg";
+import img15 from "../assets/newclients/r.jpg";
+import img58 from "../assets/newclients/58.jpg";
+import img59 from "../assets/bikeTour/92.jpg";
+import img60 from "../assets/IMG_1335.jpg";
+import img61 from "../assets/places/gilgit.jpg";
+import img62 from "../assets/south pakistan/1.jpg";
+import img63 from "../assets/adventureFairymedows/3.jpg";
 import { Map, Star, Shield, Landmark, PhoneCall } from "lucide-react";
 
 
-const TourOperator = () => {
+const MeetOperator = () => {
   return (
     <div className="p-6 space-y-12 mt-20">
       <section className="py-16 px-6 text-center">
@@ -54,7 +69,7 @@ const TourOperator = () => {
   <h3 className="text-3xl font-bold mb-6 text-center">Featured Tour Moments</h3>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-    {[img1, img2, img3, img4, img5, img6].map((img, index) => (
+    {[img1, img2, img3, img4, img5, img6, img7, img8 , img9 ,img10, img11,img12,img13, img14,img15].map((img, index) => (
       <div 
         key={index} 
         className="relative group rounded-xl overflow-hidden shadow-lg"
@@ -100,6 +115,66 @@ const TourOperator = () => {
 
   </div>
 </section>
+<section className="">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">
+      Places Rashid Has Explored
+    </h2>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      {/* Hunza */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+       <img src={img58} alt="Hunza" className="w-full h-80 object-cover"/>
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Hunza Valley</h3>
+        </div>
+      </div>
+
+      {/* Khunjerab Pass */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+        <img src={img59} alt="Hunza" className="w-full h-80 object-cover" />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Khunjerab Pass</h3>
+        </div>
+      </div>
+
+      {/* Ghizer */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+       <img src={img60} alt="Hunza" className="w-full h-80 object-cover" />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Ghizer</h3>
+        </div>
+      </div>
+
+      {/* Gilgit */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+        <img src={img61} alt="Hunza" className="w-full h-80 object-cover" />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Gilgit</h3>
+        </div>
+      </div>
+
+      {/* Islamabad */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+         <img src={img62} alt="Hunza" className="w-full h-80 object-cover" />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Islamabad</h3>
+        </div>
+      </div>
+
+      {/* Fairy Meadows */}
+      <div className="rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition">
+        <img src={img63} alt="Hunza" className="w-full h-80 object-cover" />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-800">Fairy Meadows</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
       
@@ -198,9 +273,27 @@ const TourOperator = () => {
    
   </div>
 </section>
+<section className=" py-16">
+  <div className="max-w-4xl mx-auto text-center px-6">
+    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+      Thank You for Contacting Us
+    </h2>
+
+    <p className="text-lg text-gray-600 ">
+      Life is a journey full of adventures, memories, and beautiful destinations.
+      Thank you for taking the time to explore the places I’ve visited and experienced.
+    </p>
+
+    <p className="text-lg text-gray-700 font-semibold">
+  Rashid, Travel Lover ❤️
+</p>
+
+  </div>
+</section>
+
 
     </div>
   );
 };
 
-export default TourOperator;
+export default MeetOperator;
