@@ -7,10 +7,10 @@ import FairyMeadowsImage from "../../assets/newclients/42.jpg";
 import BikeImage from "../../assets/newclients/41.jpg";
 
 //Mobile Images (make sure to place your mobile-optimized images in the path below)
-import SkarduImageMobile from "../../assets/newclients/26.jpg";
-import HunzaImageMobile from "../../assets/newclients/20.jpg";
-import FairyMeadowsImageMobile from "../../assets/adventureFairymedows/2.jpg";
-import BikeImageMobile from "../../assets/adventure deosii/9.jpg";
+import SkarduImageMobile from "../../assets/newclients/q.jpg";
+import HunzaImageMobile from "../../assets/newclients/g.jpg";
+import FairyMeadowsImageMobile from "../../assets/newclients/new.jpeg";
+import BikeImageMobile from "../../assets/newclients/new2.jpeg";
 
 const images = [
   {
@@ -18,26 +18,28 @@ const images = [
     mobileSrc: SkarduImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-      "Discover South Pakistan with Pakistani Mountain Tours.",
+      "Pakistani Mountain Tours creates journeys filled with comfort, discovery, and memories.",
   },
   {
     src: HunzaImage,
     mobileSrc: HunzaImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-      "Pakistani Mountain Tours brings you to Hunza a land of majestic mountains and unmatched hospitality.",
+      "Travel with Rashid creates journeys filled with comfort, discovery, and memories.",
   },
   {
     src: FairyMeadowsImage,
     mobileSrc: FairyMeadowsImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-    description: "Fairy Meadows,offered by Pakistani Mountain Tours, is where nature speaks in silence.",
+    description:
+      "Pakistani Mountain Tours brings you unforgettable journeys and meaningful experiences.",
   },
   {
     src: BikeImage,
     mobileSrc: BikeImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-    description: "Explore Skardu with Pakistani Mountain Tours."
+    description:
+      "Travel with Rashid brings you unforgettable journeys and meaningful experiences.",
   },
 ];
 
