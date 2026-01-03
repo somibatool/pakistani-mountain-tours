@@ -8,7 +8,7 @@ import userimg4 from "../../assets/team pic/nithi.jpg";
 import userimg5 from "../../assets/newclients/34.jpg";
 import userimg6 from "../../assets/newclients/s.jpg";
 import userimg7 from "../../assets/newclients/ratt.jpg";
-import googleLogo from "../../assets/google.png"; 
+import googleLogo from "../../assets/google.png";
 
 const testimonialData = [
   {
@@ -34,12 +34,12 @@ const testimonialData = [
   },
   {
     id: 4,
-    name:"Nithi Bunchatheravate",
-    date :"1 october 2025",
+    name: "Nithi Bunchatheravate",
+    date: "1 october 2025",
     text: " I took the Gilgit-Baltistan Tour in October of 2025 with Pakistani Mountain Tours, and it was fantastic! Our tour guide, Rashid, was incredibly friendly and did an excellent job leading the trip. His English was clear understand. He even had his niece and nephew join the group to help look after us and make sure everything ran smoothly. I highly recommend this tour.Pakistan's scenery is truly magnificent.If you want to go in autumn for autumn leaf colour or when the blossoms are blooming in spring, it would be many times more beautiful. Don't hesitate to visit!",
     img: userimg4,
   },
-   {
+  {
     id: 5,
     name: "Penluk Lothuvachai",
     date: "29 september 2025",
@@ -111,7 +111,11 @@ const Testimonial = () => {
         </div>
 
         {/* Testimonials */}
-        <div data-aos="zoom-in" data-aos-duration="300" className="max-w-[800px] mx-auto">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="300"
+          className="max-w-[800px] mx-auto"
+        >
           <Slider {...settings}>
             {testimonialData.map(({ id, name, text, img, date }) => (
               <div key={id} className="my-6 px-4">
@@ -124,19 +128,18 @@ const Testimonial = () => {
                       className="h-12 w-12 rounded-full object-cover"
                     />
                     <div className="flex flex-col">
-  <span className="font-semibold">{name}</span>
-  
-  <div className="text-sm text-gray-500 flex flex-col">
-    <span>{date}</span>
+                      <span className="font-semibold">{name}</span>
 
-    <div className="flex text-yellow-400 mt-1">
-      {[...Array(5)].map((_, i) => (
-        <FaStar key={i} />
-      ))}
-    </div>
-  </div>
-</div>
+                      <div className="text-sm text-gray-500 flex flex-col">
+                        <span>{date}</span>
 
+                        <div className="flex text-yellow-400 mt-1">
+                          {[...Array(5)].map((_, i) => (
+                            <FaStar key={i} />
+                          ))}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   {/* Testimonial Text */}
                   <p className="text-gray-600 text-sm">{text}</p>
