@@ -9,6 +9,7 @@ import userimg5 from "../../assets/newclients/34.jpg";
 import userimg6 from "../../assets/newclients/s.jpg";
 import userimg7 from "../../assets/newclients/ratt.jpg";
 import googleLogo from "../../assets/google.png";
+// This is commit comment 
 
 const testimonialData = [
   {
