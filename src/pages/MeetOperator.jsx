@@ -7,7 +7,7 @@ import img2 from "../assets/newclients/o.jpg";
 import img3 from "../assets/newclients/s.jpg";
 import img4 from "../assets/newclients/c.jpg";
 import img5 from "../assets/newclients/h.jpg";
-import img6 from "../assets/newclients/i.jpg";
+import img6 from "../assets/newclients/j.jpg";
 import img7 from "../assets/newclients/d.jpg";
 import img8 from "../assets/newclients/b.jpg";
 import img9 from "../assets/newclients/j.jpg";
