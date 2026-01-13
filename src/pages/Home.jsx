@@ -5,19 +5,14 @@ import BlogsComp from "../components/Blogs/BlogsComp";
 import Places from "../components/Places/Places";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Banner from "../components/Banner/Banner";
-// import BannerPic from "../components/BannerPic/BannerPic";
-// import BannerImg from "../assets/cover-women.jpg";
-// import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import TrekkingTours from "../components/Places/TrekkingTours";
 import BikeTours from "../components/Places/BikeTours";
 import CompanyIntro from "../components/CompanyIntro";
 import Adventure from "../components/Places/Adventure";
-// import TrekkingTours from './components/Places/TrekkingTours';
-import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
+import CustomerCounter from "../components/counter/customerCounter"; 
 import StayConnected from "./StayConnected";
 import MountainTours from "../components/MountainTours";
-
 import HeroSlider from "../components/slider/heroSlider";
 
 const Home = () => {
@@ -30,30 +25,23 @@ const Home = () => {
   return (
     <>
       <div>
-
-        <HeroSlider />    {/* <-- Slider appears at top of page */}
+        <HeroSlider /> 
         <Places handleOrderPopup={handleOrderPopup} />
         <div className="my-20">
-          {/* <TrekkingTours /> */}
-            <TrekkingTours />
-            <Adventure />
-            <BikeTours />
-             <CompanyIntro />
-       
+          <TrekkingTours />
+          <Adventure />
+          <BikeTours />
+          <CompanyIntro />
           <CustomerCounter />
         </div>
-        {/* <BlogsComp /> */}
         <Banner />
         <MountainTours />
-        {/* <BannerPic img={Banner2} /> */}
         <Testimonial />
-      <  StayConnected/>
+        <StayConnected />
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
-
       </div>
     </>
   );
 };
-
 
 export default Home;
