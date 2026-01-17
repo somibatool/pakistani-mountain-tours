@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import Location from "../components/Location/Location"
+import Location from "../components/Location/Location";
 import StayConnected from "./StayConnected";
 
 const Contact = () => {
@@ -27,8 +27,6 @@ const Contact = () => {
       const serviceID = "service_elg2uwb";
       const templateID = "template_icpvsya";
       const userID = "8crWTabUCOmGyoo97";
-
-      // Construct the data object to match your EmailJS template
       const emailData = {
         user_name: formData.user_name,
         user_email: formData.user_email,
@@ -37,8 +35,6 @@ const Contact = () => {
         travelers: formData.travelers,
         message: formData.message,
       };
-      
-
       console.log("Sending Data:", emailData);
       await emailjs.send(serviceID, templateID, emailData, userID);
 
@@ -58,7 +54,6 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
-
   return (
     <>
       <div className="container pt-14 mt-10">
@@ -67,7 +62,12 @@ const Contact = () => {
             Contact Us
           </h1>
           <p>
-For all your travel inquiries, bookings, or custom tour plans, get in touch with us at Pakistani Mountain Tours. Our team is ready to help you explore breathtaking destinations across Hunza, Skardu, Fairy Meadows, and South Pakistan. Pakistani Mountain Tours is your trusted travel partner for unforgettable adventures in the heart of Pakistan. 
+            For all your travel inquiries, bookings, or custom tour plans, get
+            in touch with us at Pakistani Mountain Tours. Our team is ready to
+            help you explore breathtaking destinations across Hunza, Skardu,
+            Fairy Meadows, and South Pakistan. Pakistani Mountain Tours is your
+            trusted travel partner for unforgettable adventures in the heart of
+            Pakistan.
           </p>
         </div>
       </div>
@@ -188,10 +188,9 @@ For all your travel inquiries, bookings, or custom tour plans, get in touch with
             </button>
           </form>
         </div>
-     
       </div>
-       <  Location />
-       < StayConnected />
+      <Location />
+      <StayConnected />
     </>
   );
 };
