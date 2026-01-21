@@ -31,10 +31,6 @@ import MeetOperator from "./pages/MeetOperator";
 
 
 // import BikeDetailPage from './components/BikeDetailPage';
-<<<<<<< HEAD
-=======
-
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 // import ScrollToTop from "./ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,10 +51,6 @@ const App = () => {
     <BrowserRouter>
       {/*  Must be inside BrowserRouter */}
       <ScrollToTop />
-<<<<<<< HEAD
-=======
-
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

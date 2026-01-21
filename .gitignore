@@ -7,14 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-<<<<<<< HEAD
 dist
 dist.zip
 node_modules
 .env
 
-=======
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 node_modules
 dist
 dist-ssr

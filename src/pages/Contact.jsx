@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-<<<<<<< HEAD
 import Location from "../components/Location/Location";
-=======
-import Location from "../components/Location/Location"
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import StayConnected from "./StayConnected";
 
 const Contact = () => {
@@ -41,10 +37,6 @@ const Contact = () => {
         travelers: formData.travelers,
         message: formData.message,
       };
-<<<<<<< HEAD
-=======
-      
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 
       console.log("Sending Data:", emailData);
       await emailjs.send(serviceID, templateID, emailData, userID);
@@ -74,16 +66,12 @@ const Contact = () => {
             Contact Us
           </h1>
           <p>
-<<<<<<< HEAD
             For all your travel inquiries, bookings, or custom tour plans, get
             in touch with us at Pakistani Mountain Tours. Our team is ready to
             help you explore breathtaking destinations across Hunza, Skardu,
             Fairy Meadows, and South Pakistan. Pakistani Mountain Tours is your
             trusted travel partner for unforgettable adventures in the heart of
             Pakistan.
-=======
-For all your travel inquiries, bookings, or custom tour plans, get in touch with us at Pakistani Mountain Tours. Our team is ready to help you explore breathtaking destinations across Hunza, Skardu, Fairy Meadows, and South Pakistan. Pakistani Mountain Tours is your trusted travel partner for unforgettable adventures in the heart of Pakistan. 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
           </p>
         </div>
       </div>
@@ -204,16 +192,9 @@ For all your travel inquiries, bookings, or custom tour plans, get in touch with
             </button>
           </form>
         </div>
-<<<<<<< HEAD
       </div>
       <Location />
       <StayConnected />
-=======
-     
-      </div>
-       <  Location />
-       < StayConnected />
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
     </>
   );
 };
