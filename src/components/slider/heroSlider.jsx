@@ -7,17 +7,14 @@ import FairyMeadowsImage from "../../assets/newclients/42.jpg";
 import BikeImage from "../../assets/newclients/41.jpg";
 
 //Mobile Images (make sure to place your mobile-optimized images in the path below)
-<<<<<<< HEAD
 import SkarduImageMobile from "../../assets/newclients/q.jpg";
 import HunzaImageMobile from "../../assets/newclients/g.jpg";
 import FairyMeadowsImageMobile from "../../assets/newclients/new.jpeg";
 import BikeImageMobile from "../../assets/newclients/new2.jpeg";
-=======
 import SkarduImageMobile from "../../assets/newclients/26.jpg";
 import HunzaImageMobile from "../../assets/newclients/20.jpg";
 import FairyMeadowsImageMobile from "../../assets/adventureFairymedows/2.jpg";
 import BikeImageMobile from "../../assets/adventure deosii/9.jpg";
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 
 const images = [
   {
@@ -25,42 +22,30 @@ const images = [
     mobileSrc: SkarduImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-<<<<<<< HEAD
       "Pakistani Mountain Tours creates journeys filled with comfort, discovery, and memories.",
-=======
       "Discover South Pakistan with Pakistani Mountain Tours.",
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
   },
   {
     src: HunzaImage,
     mobileSrc: HunzaImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
     description:
-<<<<<<< HEAD
       "Travel with Rashid creates journeys filled with comfort, discovery, and memories.",
-=======
       "Pakistani Mountain Tours brings you to Hunza a land of majestic mountains and unmatched hospitality.",
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
   },
   {
     src: FairyMeadowsImage,
     mobileSrc: FairyMeadowsImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-<<<<<<< HEAD
     description: "Pakistani Mountain Tours brings you unforgettable journeys and meaningful experiences.",
-=======
     description: "Fairy Meadows,offered by Pakistani Mountain Tours, is where nature speaks in silence.",
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
   },
   {
     src: BikeImage,
     mobileSrc: BikeImageMobile,
     title: "Welcome to Pakistani Mountain Tours",
-<<<<<<< HEAD
     description: "Travel with Rashid brings you unforgettable journeys and meaningful experiences."
-=======
     description: "Explore Skardu with Pakistani Mountain Tours."
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
   },
 ];
 

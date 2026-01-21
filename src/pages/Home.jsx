@@ -14,16 +14,13 @@ import BikeTours from "../components/Places/BikeTours";
 import CompanyIntro from "../components/CompanyIntro";
 import Adventure from "../components/Places/Adventure";
 // import TrekkingTours from './components/Places/TrekkingTours';
-<<<<<<< HEAD
 import CustomerCounter from "../components/counter/customerCounter";
 import StayConnected from "./StayConnected";
 import MountainTours from "../components/MountainTours";
-=======
 import CustomerCounter from "../components/counter/customerCounter";  //  Import counter
 import StayConnected from "./StayConnected";
 import MountainTours from "../components/MountainTours";
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import HeroSlider from "../components/slider/heroSlider";
 
 const Home = () => {
@@ -36,7 +33,6 @@ const Home = () => {
   return (
     <>
       <div>
-<<<<<<< HEAD
         <HeroSlider /> {/* <-- Slider appears at top of page */}
         <Places handleOrderPopup={handleOrderPopup} />
         <div className="my-20">
@@ -45,7 +41,6 @@ const Home = () => {
           <Adventure />
           <BikeTours />
           <CompanyIntro />
-=======
 
         <HeroSlider />    {/* <-- Slider appears at top of page */}
         <Places handleOrderPopup={handleOrderPopup} />
@@ -56,7 +51,6 @@ const Home = () => {
             <BikeTours />
              <CompanyIntro />
        
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
           <CustomerCounter />
         </div>
         {/* <BlogsComp /> */}
@@ -64,21 +58,15 @@ const Home = () => {
         <MountainTours />
         {/* <BannerPic img={Banner2} /> */}
         <Testimonial />
-<<<<<<< HEAD
         <StayConnected />
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
-=======
       <  StayConnected/>
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
       </div>
     </>
   );
 };
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 export default Home;

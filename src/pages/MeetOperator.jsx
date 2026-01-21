@@ -1,11 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
 import operatorImg from "../assets/newclients/28.jpg";
 import pakistanImg from "../assets/newclients/20.jpg";
-=======
 import operatorImg from "../assets/newclients/28.jpg"; 
 import pakistanImg from "../assets/newclients/20.jpg"; 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import introVideo from "../assets/newclients/123.mp4";
 import img1 from "../assets/newclients/a.jpg";
 import img2 from "../assets/newclients/o.jpg";
@@ -30,40 +27,32 @@ import img62 from "../assets/south pakistan/1.jpg";
 import img63 from "../assets/adventureFairymedows/3.jpg";
 import { Map, Star, Shield, Landmark, PhoneCall } from "lucide-react";
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 const MeetOperator = () => {
   return (
     <div className="p-6 space-y-12 mt-20">
       <section className="py-16 px-6 text-center">
-<<<<<<< HEAD
         <h2 className="text-4xl font-bold mb-4">Rashid’s Portfolio</h2>
         <p className="text-lg max-w-2xl mx-auto text-gray-600">
           With over 15+ years of experience, Rashid Hussain has guided thousands
           of tourists across Pakistan’s most breathtaking destinations.
         </p>
       </section>
-=======
   <h2 className="text-4xl font-bold mb-4">Rashid’s Portfolio</h2>
   <p className="text-lg max-w-2xl mx-auto text-gray-600">
     With over 15+ years of experience, Rashid Hussain has guided thousands 
     of tourists across Pakistan’s most breathtaking destinations.
   </p>
 </section>
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 
       {/* Section 1: Introduction */}
       <section className="flex flex-col md:flex-row items-center gap-8">
         <div className="md:w-1/2">
-<<<<<<< HEAD
           <img
             src={operatorImg}
             alt="Rashid Hussain"
             className="rounded-xl shadow-lg w-full aspect-video object-cover"
           />
-=======
 <img
   src={operatorImg}
   alt="Rashid Hussain"
@@ -72,7 +61,6 @@ const MeetOperator = () => {
 
 
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
         </div>
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold mb-4">Meet Rashid Hussain</h1>
@@ -83,19 +71,15 @@ const MeetOperator = () => {
           </p>
           <p className="text-lg mb-2">
             Currently living in Thailand, Rashid ensures safe, comfortable, and
-<<<<<<< HEAD
             unforgettable travel experiences for all visitors. His expertise and
             dedication make him a trusted professional in the tourism industry.
-=======
             unforgettable travel experiences for all visitors. His expertise
             and dedication make him a trusted professional in the tourism
             industry.
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
           </p>
         </div>
       </section>
 
-<<<<<<< HEAD
       <section className="px-6 pb-16">
         <h3 className="text-3xl font-bold mb-6 text-center">
           Featured Tour Moments
@@ -367,7 +351,6 @@ const MeetOperator = () => {
           </p>
         </div>
       </section>
-=======
 <section className="px-6 pb-16">
   <h3 className="text-3xl font-bold mb-6 text-center">Featured Tour Moments</h3>
 
@@ -595,7 +578,6 @@ const MeetOperator = () => {
 </section>
 
 
->>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
     </div>
   );
 };
