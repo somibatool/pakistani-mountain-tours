@@ -1,18 +1,14 @@
 import React from "react";
-import Hero from "../components/Hero/Hero";
-import NatureVid from "../assets/video/main.mp4";
-import BlogsComp from "../components/Blogs/BlogsComp";
 import Places from "../components/Places/Places";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Banner from "../components/Banner/Banner";
-
 import OrderPopup from "../components/OrderPopup/OrderPopup";
 import TrekkingTours from "../components/Places/TrekkingTours";
 import BikeTours from "../components/Places/BikeTours";
 import CompanyIntro from "../components/CompanyIntro";
 import Adventure from "../components/Places/Adventure";
 import CustomerCounter from "../components/counter/customerCounter"; 
-import StayConnected from "../components/StayConnected"; // fixed path
+import StayConnected from "../pages/StayConnected";
 import MountainTours from "../components/MountainTours";
 import HeroSlider from "../components/slider/heroSlider";
 

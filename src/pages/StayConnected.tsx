@@ -11,7 +11,6 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
-
 const StayConnected = () => {
   return (
     <div className="py-10 bg-white dark:bg-gray-900">
@@ -20,7 +19,8 @@ const StayConnected = () => {
           Stay Connected
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-6">
-          Follow us on social media and stay updated with our latest tours, adventures, and experiences!
+          Follow us on social media and stay updated with our latest tours,
+          adventures, and experiences!
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 text-white">
@@ -35,45 +35,42 @@ const StayConnected = () => {
               link: "https://www.instagram.com/pakistanimountaintours?igsh=Y3BveHJlaWowMDF4&utm_source=qr",
               color: "bg-gradient-to-tr from-pink-500 to-yellow-500",
             },
-        {
-  icon: <FaXTwitter />,
-  link: "https://x.com/rashidh72?s=11",
-  color: "bg-black",
-},
-           {
-  icon: <MdEmail />,
-  link: "mailto:pakistanimountaintours@gmail.com",
-  color: "bg-red-500",
-},
-{
-  icon: <FaLine />,
-  link: "https://line.me/ti/p/VJ8LQ7OhQv",
-  color: "bg-green-500", // LINE's official color
-},
+            {
+              icon: <FaXTwitter />,
+              link: "https://x.com/rashidh72?s=11",
+              color: "bg-black",
+            },
+            {
+              icon: <MdEmail />,
+              link: "mailto:pakistanimountaintours@gmail.com",
+              color: "bg-red-500",
+            },
+            {
+              icon: <FaLine />,
+              link: "https://line.me/ti/p/VJ8LQ7OhQv",
+              color: "bg-green-500", // LINE's official color
+            },
 
-
-          
             {
               icon: <FaTiktok />,
               link: "https://www.tiktok.com/@pmt.pk?_t=ZS-8yVccemmZZ2&_r=1",
               color: "bg-black",
             },
-          {
-  icon: <FaWhatsapp />,
-  label: (
-    <a
-      href="https://wa.me/66956071567"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-primary hover:bg-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
-    >
-      Contact Us On WhatsApp
-    </a>
-  ),
-  link: "https://wa.me/66956071567",
-  color: "bg-green-500",
-}
-
+            {
+              icon: <FaWhatsapp />,
+              label: (
+                <a
+                  href="https://wa.me/66956071567"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary hover:bg-primary text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300 mt-9"
+                >
+                  Contact Us On WhatsApp
+                </a>
+              ),
+              link: "https://wa.me/66956071567",
+              color: "bg-green-500",
+            },
           ].map((social, index) => (
             <a
               key={index}
