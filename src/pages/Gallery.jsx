@@ -73,7 +73,6 @@ import Img72 from "../assets/newclients/42.jpg";
 import Img73 from "../assets/newclients/hunza.jpg";
 import Img74 from "../assets/newclients/rashid.jpg";
 import Img75 from "../assets/newclients/41.jpg";
-
 import Testimonial from "../components/Testimonial/Testimonial";
 import StayConnected from "./StayConnected";
 
@@ -83,7 +82,7 @@ const tabs = ["Gallery 2024", "Gallery 2025", "North Pakistan", "South Pakistan"
 // Images by category
 const allImages = {
   "Gallery 2024": [
-    Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11, Img18, Img92, Img93, Img94, Img95, Img96, Img97, Img98
+    Img1, Img2, Img27, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11, Img18, Img59, Img62, Img15, Img28, Img23, Img44, Img34, Img31
   ],
   "Gallery 2025": [
     Img48, Img49, Img50, Img51, Img52, Img53, Img54, Img55, Img56, Img57, Img58, Img59, Img60, Img61, Img62, Img63, Img64, Img65, Img66, Img67, Img68, Img70, Img71, Img72
