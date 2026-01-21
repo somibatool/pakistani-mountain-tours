@@ -1,4 +1,3 @@
-import React from "react";
 import Team1 from "../assets/team pic/team18.jpg";
 import TeamImage from "../assets/newclients/28.jpg";
 import CoFounderImage from "../assets/adventureFairymedows/measum.jpg";
