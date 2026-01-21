@@ -107,7 +107,6 @@ const AboutUs = () => {
             />
           </div>
 
-          {/* measum */}
           <div className="w-full md:w-2/3 text-lg leading-relaxed">
             <p className="mb-4 font-semibold">
               [Meet Mesum Abbas – Your Mountain Adventure Guide ]
