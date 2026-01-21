@@ -16,7 +16,11 @@ import Img94 from "../assets/team pic/15.jpg";
 import Img95 from "../assets/team pic/16.jpg";
 import Img96 from "../assets/team pic/1.jpg";
 import Img97 from "../assets/team pic/97.jpg";
+<<<<<<< HEAD
 import Img98 from "../assets/team pic/team2.jpg";
+=======
+import Img98 from "../assets/team pic/team2.jpg"
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import Img10 from "../assets/team pic/team 10.jpg";
 import Img12 from "../assets/nightview hunza.jpg";
 import Img13 from "../assets/rakaposhi-trk/1.jpg";
@@ -77,10 +81,19 @@ import Img67 from "../assets/newclients/24.jpg";
 import Img68 from "../assets/newclients/25.jpg";
 import Img70 from "../assets/newclients/40.jpg";
 import Img71 from "../assets/newclients/35.jpg";
+<<<<<<< HEAD
 import Img72 from "../assets/newclients/42.jpg";
 import Img73 from "../assets/newclients/hunza.jpg";
 import Img74 from "../assets/newclients/rashid.jpg";
 import Img75 from "../assets/newclients/41.jpg";
+=======
+import Img72 from "../assets/newclients/42.jpg"
+import Img73 from "../assets/newclients/hunza.jpg"
+import Img74 from "../assets/newclients/rashid.jpg"
+import Img75 from "../assets/newclients/41.jpg"
+
+
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import Testimonial from "../components/Testimonial/Testimonial";
 import StayConnected from "./StayConnected";
 
@@ -94,6 +107,7 @@ const tabs = [
   // "Afghanistan",
 ];
 
+<<<<<<< HEAD
 const allImages = {
   "Gallery 2024": [
     Img1,
@@ -193,11 +207,29 @@ const allImages = {
   // "Afghanistan": [Img1, Img2, Img6, Img7, Img3, Img5, Img4, Img8, Img1, Img5, Img2, Img3],
 };
 
+=======
+
+
+const allImages = {
+   "Gallery 2024": [Img1, Img2, Img3,  Img11, Img91, Img9, Img6, Img7, Img8, Img5, Img10,, Img18 , Img4 ,Img92,Img93,Img94 , Img95 ,Img96 ,Img97, Img98],
+   "Gallery 2025":[Img48, Img49,Img50,Img51,Img52,Img53,Img54,Img55,Img56,Img57,Img58,Img59,Img60,Img61,Img62, Img63 , Img64 ,Img65, Img66, Img67, Img68,Img70, Img71, Img72],
+  "North Pakistan": [Img12, Img13, Img14, Img15, Img16, Img17, Img18, Img19, Img20, Img21, Img22, Img23, Img67, Img73,Img74,Img75],
+  "South Pakistan": [Img24, Img25, Img26, Img27, Img28, Img29, Img30, Img31, Img32, Img33, Img34, Img35],
+  "Festivals": [Img36, Img37, Img38, Img39, Img40, Img41, Img42, Img43, Img44, Img45, Img46, Img47],
+  // "Afghanistan": [Img1, Img2, Img6, Img7, Img3, Img5, Img4, Img8, Img1, Img5, Img2, Img3],
+};
+
+
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState("Gallery 2024");
 
   return (
     <div className="p-6 max-w-7xl mx-auto mt-40">
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
       {/* Full-width header image */}
       <div className="mb-8">
         {/* <img
@@ -208,6 +240,7 @@ const Gallery = () => {
         <div className="mt-4 text-center">
           <h2 className="text-3xl font-bold mb-2">Explore Our Gallery</h2>
           <p className="text-gray-600">
+<<<<<<< HEAD
             Welcome to the Gallery section of Pakistani Mountain Tours , where
             we showcase unforgettable moments from our tours. This is our
             gallery section where all our tour images are shown — from the
@@ -215,6 +248,10 @@ const Gallery = () => {
             Kalash. Our photo collection captures the true essence of adventure,
             culture, and the beauty that Pakistani Mountain Tours proudly brings
             to every journey.
+=======
+Welcome to the Gallery section of Pakistani Mountain Tours
+, where we showcase unforgettable moments from our tours. This is our gallery section where all our tour images are shown — from the majestic mountains of North Pakistan to the vibrant festivals of Kalash. Our photo collection captures the true essence of adventure, culture, and the beauty that Pakistani Mountain Tours proudly brings to every journey.
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
           </p>
         </div>
       </div>

@@ -110,6 +110,12 @@ const Navbar = ({ handleOrderPopup }) => {
   >
     <FaInstagram /> <span className="text-sm">Instagram</span>
   </a>
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
   <a
     href="https://www.tiktok.com/@pmt.pk?_t=ZS-8yVccemmZZ2&_r=1"
     target="_blank"
@@ -120,9 +126,19 @@ const Navbar = ({ handleOrderPopup }) => {
     <FaTiktok /> <span className="text-sm">TikTok</span>
   </a>
 </div>
+<<<<<<< HEAD
     </div>
   </div>
 </div>
+=======
+
+
+    </div>
+  </div>
+</div>
+
+
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4  font-bold text-2xl">
@@ -221,6 +237,10 @@ const Navbar = ({ handleOrderPopup }) => {
           </div>
         </div>
         <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
       </nav>
     </>
   );
