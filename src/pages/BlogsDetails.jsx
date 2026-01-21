@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from "react";
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import { useLocation } from "react-router-dom";
 import BlogsComp from "../components/Blogs/BlogsComp";
 

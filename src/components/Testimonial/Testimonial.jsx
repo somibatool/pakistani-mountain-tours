@@ -5,9 +5,12 @@ import userimg from "../../assets/autumn/doctor_client.jpg";
 import userimg1 from "../../assets/andrew.jpg";
 import userimg2 from "../../assets/client5.jpg";
 import userimg4 from "../../assets/team pic/nithi.jpg";
+<<<<<<< HEAD
 import userimg5 from "../../assets/newClients/34.jpg";
 import userimg6 from "../../assets/newClients/i.jpg";
 import userimg7 from "../../assets/newClients/ratt.jpg";
+=======
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 import googleLogo from "../../assets/google.png"; // make sure this exists in your assets folder
 
 const testimonialData = [
@@ -39,6 +42,7 @@ const testimonialData = [
     text: " I took the Gilgit-Baltistan Tour in October of 2025 with Pakistani Mountain Tours, and it was fantastic! Our tour guide, Rashid, was incredibly friendly and did an excellent job leading the trip. His English was clear understand. He even had his niece and nephew join the group to help look after us and make sure everything ran smoothly. I highly recommend this tour.Pakistan's scenery is truly magnificent.If you want to go in autumn for autumn leaf colour or when the blossoms are blooming in spring, it would be many times more beautiful. Don't hesitate to visit!",
     img: userimg4,
   },
+<<<<<<< HEAD
   {
     id:5,
     name: "Penluk Lothuvachai",
@@ -63,6 +67,8 @@ const testimonialData = [
     img: userimg7,
 
   },
+=======
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
 ];
 
 const Testimonial = () => {

@@ -15,7 +15,11 @@ const Layout = () => {
     <>
       <Navbar handleOrderPopup={handleOrderPopup} />
       <Outlet />
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 3892f0f75ff4618c33ce8e270ec616648fa0a584
       <Footer />
       <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
     </>
