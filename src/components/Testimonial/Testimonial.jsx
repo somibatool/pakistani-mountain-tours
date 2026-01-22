@@ -6,8 +6,8 @@ import userimg1 from "../../assets/andrew.jpg";
 import userimg2 from "../../assets/client5.jpg";
 import userimg4 from "../../assets/team pic/nithi.jpg";
 import userimg5 from "../../assets/newclients/30.jpg";
-import userimg6 from "../../assets/newClients/i.jpg";
-import userimg7 from "../../assets/newClients/ratt.jpg";
+import userimg6 from "../../assets/newclients/31.jpg";
+import userimg7 from "../../assets/newclients/ratt.jpg";
 import googleLogo from "../../assets/google.png"; 
 
 const testimonialData = [
