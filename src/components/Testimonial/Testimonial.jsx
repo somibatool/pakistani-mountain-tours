@@ -5,10 +5,10 @@ import userimg from "../../assets/autumn/doctor_client.jpg";
 import userimg1 from "../../assets/andrew.jpg";
 import userimg2 from "../../assets/client5.jpg";
 import userimg4 from "../../assets/team pic/nithi.jpg";
-import userimg5 from "../../assets/newClients/34.jpg";
+import userimg5 from "../../assets/newclients/30.jpg";
 import userimg6 from "../../assets/newClients/i.jpg";
 import userimg7 from "../../assets/newClients/ratt.jpg";
-import googleLogo from "../../assets/google.png"; // make sure this exists in your assets folder
+import googleLogo from "../../assets/google.png"; 
 
 const testimonialData = [
   {
